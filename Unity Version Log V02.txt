@@ -1,0 +1,24 @@
+Old:
+
+- Folder - "01 - Scenes"
+	- Scene - "Demo Stage"
+
+- Object - "Stage"
+	- ProBuilder components
+
+- Folder - "02 - Character"
+	- Sub-Folder - "01 - Ryu"
+		- Sub-Folder - "01 - Sprites"
+			- Sub-Folder - "001 - Idle"
+
+- Preset - "Preset_Sprites"
+	
+- Object - "Character_01_Ryu_Object"
+	- Component - "Sprite Renderer
+	- Component - "Rigidbody"
+	- Component - Capsule Collider
+---------------------------------------------------------------
+New:
+
+---------------------------------------------------------------
+Change:
