@@ -20,5 +20,26 @@ Old:
 ---------------------------------------------------------------
 New:
 
+- Sub-Folder - "02 - Character -> 01 - Ryu -> 02 - Scripts"
+
+- Sub-Folder - "02 - Character -> 00 - Universal Scripts"
+	- Script - "Scr_01_Control_Manager"
+	- Script - "Scr_02_State_Manager"
+	- Script - "Scr_03_Character_Stats"
+	- Script - "Scr_04_Universal_Physics_Manager"
+	- Script - "Scr_05_Universal_Action_Manager"
+
+- Object - "Character_01_Ryu_Object"
+	+ Component - "Box Collider"
+	+ Script - "Scr_01_Control_Manager"
+	+ Script - "Scr_02_State_Manager"
+	+ Script - "Scr_03_Character_Stats"
+	+ Script - "Scr_04_Universal_Physics_Manager"
+	+ Script - "Scr_05_Universal_Action_Manager"
+
+- Layer - "Layer_Stage"
 ---------------------------------------------------------------
 Change:
+- Object - "Stage"
+	+ Layer - "Layer_Stage"
+
