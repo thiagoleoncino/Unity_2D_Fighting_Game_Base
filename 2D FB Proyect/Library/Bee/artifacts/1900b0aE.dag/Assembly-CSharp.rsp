@@ -352,6 +352,8 @@
 "Assets/02 - Characters/00 - Universal Scripts/Scr_03_Character_Stats.cs"
 "Assets/02 - Characters/00 - Universal Scripts/Scr_04_Universal_Physics_Manager.cs"
 "Assets/02 - Characters/00 - Universal Scripts/Scr_05_Universal_Action_Manager.cs"
+"Assets/02 - Characters/00 - Universal Scripts/Scr_06_Universal_Animation_Events.cs"
+"Assets/02 - Characters/01 - Ryu/02 - Scripts/Scr_07_Ryu_Animation_Manager.cs"
 -langversion:9.0
 
 /deterministic

@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_07_ryu_animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_07_ryu_animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_06_universal_animation_events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_06_universal_animation_events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_03_character_stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\scr_03_character_stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_03_character_stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_04_universal_physics_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\scr_04_universal_physics_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_04_universal_physics_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scr_07_Ryu_Animation_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
+              "RelativeToolTip": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T23:35:53.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Scr_06_Universal_Animation_Events.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_06_Universal_Animation_Events.cs",
+              "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_06_Universal_Animation_Events.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_06_Universal_Animation_Events.cs",
+              "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_06_Universal_Animation_Events.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T23:24:23.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Scr_03_Character_Stats.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_03_Character_Stats.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_03_Character_Stats.cs",
@@ -34,12 +68,11 @@
               "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_03_Character_Stats.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T22:23:13.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T22:23:13.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Scr_04_Universal_Physics_Manager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_04_Universal_Physics_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_04_Universal_Physics_Manager.cs",
@@ -47,21 +80,19 @@
               "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_04_Universal_Physics_Manager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T22:23:06.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T22:23:06.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Scr_05_Universal_Action_Manager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
               "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wDcAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T22:15:29.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T22:15:29.925Z"
             }
           ]
         }

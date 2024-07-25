@@ -1,0 +1,5 @@
+Ver 0.3
+	- Action States ()
+	- Animation Logic
+	- Basic Character Animations (Idle*, Walk F, Walk B, Jump, Crouch)
+	

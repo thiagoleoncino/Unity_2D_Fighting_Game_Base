@@ -1,0 +1,49 @@
+Old:
+
+- Sub-Folder - "02 - Character -> 01 - Ryu -> 02 - Scripts"
+
+- Sub-Folder - "02 - Character -> 00 - Universal Scripts"
+	- Script - "Scr_01_Control_Manager"
+	- Script - "Scr_02_State_Manager"
+	- Script - "Scr_03_Character_Stats"
+	- Script - "Scr_04_Universal_Physics_Manager"
+	- Script - "Scr_05_Universal_Action_Manager"
+
+- Object - "Character_01_Ryu_Object"
+	+ Component - "Box Collider"
+	+ Script - "Scr_01_Control_Manager"
+	+ Script - "Scr_02_State_Manager"
+	+ Script - "Scr_03_Character_Stats"
+	+ Script - "Scr_04_Universal_Physics_Manager"
+	+ Script - "Scr_05_Universal_Action_Manager"
+
+- Layer - "Layer_Stage"
+
+- Object - "Stage"
+	+ Layer - "Layer_Stage"
+---------------------------------------------------------------
+New:
+
+- Object - "Character_01_Ryu_Object"
+	+ Child Object - "Animator"
+		+ Component - "Transform"
+		+ Component - "Sprtie Renderer" (from main object)
+		+ Script - "Scr_06_Universal_Animation_Events"
+
+- Sub-Folder - "02 - Character -> 00 - Universal Scripts"
+	- Script - "Scr_06_Universal_Animation_Events"
+
+- Sub-Folder - "02 - Character -> 01 - Ryu -> 03 - Animations"
+	+ Unity Component - "Animator"
+	+ Animation Clip - "Anim_01_Ryu_Idle"
+
+- Sub-Folder - "02 - Character -> 01 - Ryu -> 02 - Scripts"
+	+ Script - "Scr_07_Ryu_Animation_Manager"
+
+- Sub-Folder - "02 - Character -> 01 - Ryu -> 01 - Sprites"
+	+ Folder - "002 - Horizontal Movement"
+
+---------------------------------------------------------------
+Change:
+
+
