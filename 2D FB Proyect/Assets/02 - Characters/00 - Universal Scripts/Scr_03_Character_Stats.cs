@@ -9,5 +9,6 @@ public class Scr_03_Character_Stats : MonoBehaviour
     public float groundBackwardSpeed;
 
     [Space]
+    public int jumpAmount;
     public int jumpHeight;
 }

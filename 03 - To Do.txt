@@ -1,5 +1,10 @@
 Ver 0.3
-	- Action States ()
-	- Animation Logic
-	- Basic Character Animations (Idle*, Walk F, Walk B, Jump, Crouch)
+	- Action States (+)
+	- Animation Logic (+)
+	- Basic Character Animations (Idle, Walk F, Walk B, Jump, Fall, Crouch)
+
+Quedo en: 
+	- Modificando Universal Action manager Jump.
+	- Addin JumpAmount
+	- Modiciando posicion de Box Collider un pixel por arriba para poder saltar bien.
 	

@@ -224,6 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGroundState: 0
+  currentState: 0
 --- !u!65 &316004127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -235,8 +236,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.65, y: 0.2, z: 0.2}
-  m_Center: {x: 0, y: -0.4, z: 0}
+  m_Size: {x: 0.3, y: 0.2, z: 0.2}
+  m_Center: {x: 0, y: -0.38, z: 0}
 --- !u!114 &316004128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,6 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actualAction: 
+  totalJumps: 0
 --- !u!114 &316004129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,8 +276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e661732d51271347af29a60f4d94af7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundFowardSpeed: 5
-  groundBackwardSpeed: 2
+  groundFowardSpeed: 3
+  groundBackwardSpeed: 1.5
+  jumpAmount: 1
   jumpHeight: 5
 --- !u!1 &660919721
 GameObject:

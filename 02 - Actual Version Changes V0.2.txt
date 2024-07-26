@@ -36,6 +36,10 @@ New:
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 03 - Animations"
 	+ Unity Component - "Animator"
 	+ Animation Clip - "Anim_01_Ryu_Idle"
+	+ Animation Clip - "Anim_02_Ryu_WalkFoward"
+	+ Animation Clip - "Anim_03_Ryu_WalkBackwards"
+	+ Animation Clip - "Anim_04_Ryu_Jump"
+	+ Animation Clip - "Anim_05_Ryu_Fall"
 
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 02 - Scripts"
 	+ Script - "Scr_07_Ryu_Animation_Manager"

@@ -11,6 +11,8 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
     //Basic Variables
     public string actualAction;
 
+    public int totalJumps;
+
     void Awake()
     {
         controlManager = GetComponent<Scr_01_Control_Manager>();
@@ -21,34 +23,40 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
 
     private void FixedUpdate()
     {
-
-        //Passive Actions in the Ground
+        //Actions in the Ground
         if (stateManager.stateGrounded)
         {
-            //Idle
+            totalJumps = characterStats.jumpAmount;
+        }
+
+        //Passive Actions in the Ground
+        if (stateManager.stateGrounded && stateManager.passiveAction)
+        {
+            //Idle and Horizontal Movement Code
             if (controlManager.idle || controlManager.buttonRight && controlManager.buttonLeft)
             {
                 universalPysicsManager.MoveCharacterFunction(0f);
                 actualAction = "Idle";
             }
-
-            //Horizontal Movement Code
-            if (controlManager.buttonRight)
+            else if (controlManager.buttonRight)
             {
-                universalPysicsManager.MoveCharacterFunction(characterStats.groundFowardSpeed);
+                universalPysicsManager.MoveCharacterFunction(1f);
+                actualAction = "MoveFoward";
             }
             else if (controlManager.buttonLeft)
             {
-                universalPysicsManager.MoveCharacterFunction(-characterStats.groundBackwardSpeed);
+                universalPysicsManager.MoveCharacterFunction(-1f);
+                actualAction = "MoveBackward";
             }
+        }
 
-            //Jump
-            if (controlManager.buttonUp)
-            {
-                universalPysicsManager.JumpCharacterFunction();
-                controlManager.buttonUp = false;
-                actualAction = "Jump";
-            }
+        //Jump
+        if (controlManager.buttonUp && totalJumps > 0)
+        {
+            universalPysicsManager.JumpCharacterFunction();
+            controlManager.buttonUp = false;
+            actualAction = "Jump";
+            --totalJumps;
         }
 
     }
