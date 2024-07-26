@@ -40,12 +40,19 @@ New:
 	+ Animation Clip - "Anim_03_Ryu_WalkBackwards"
 	+ Animation Clip - "Anim_04_Ryu_Jump"
 	+ Animation Clip - "Anim_05_Ryu_Fall"
+	+ Animation Clip - "Anim_06_Ryu_Crouch"
+	+ Animation Clip - "Anim_07_Ryu_Standing"
 
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 02 - Scripts"
 	+ Script - "Scr_07_Ryu_Animation_Manager"
 
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 01 - Sprites"
 	+ Folder - "002 - Horizontal Movement"
+	+ Folder - "003 - Vertical Movement"
+	+ Folder - "004 - Crouch"
+
+- Sub-Folder - "02 - Character -> 01 - Ryu"
+	+ Prefab - "Character_01_Ryu_Object"
 
 ---------------------------------------------------------------
 Change:

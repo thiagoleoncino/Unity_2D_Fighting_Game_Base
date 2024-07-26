@@ -27,36 +27,70 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
         if (stateManager.stateGrounded)
         {
             totalJumps = characterStats.jumpAmount;
+
+            if(stateManager.passiveAction)
+            {
+                //Idle and Horizontal Movement Code
+                if (controlManager.idle || controlManager.buttonRight && controlManager.buttonLeft)
+                {
+                    universalPysicsManager.MoveCharacterFunction(0f);
+                    actualAction = "Idle";
+                }
+                else if (controlManager.buttonRight)
+                {
+                    universalPysicsManager.MoveCharacterFunction(1f);
+                    actualAction = "MoveFoward";
+                }
+                else if (controlManager.buttonLeft)
+                {
+                    universalPysicsManager.MoveCharacterFunction(-1f);
+                    actualAction = "MoveBackward";
+                }
+
+                //Crouch Code
+                if (controlManager.buttonDown)
+                {
+                    actualAction = "Crouch";
+                    stateManager.cancelableAction = true;
+                }
+            }
+
+            if (stateManager.cancelableAction)
+            {
+                //Character Standing from crouch
+                if (actualAction == "Crouch")
+                {
+                    if (!controlManager.buttonDown)
+                    {
+                        actualAction = "Standing";
+                    }
+                }
+            }
         }
 
-        //Passive Actions in the Ground
-        if (stateManager.stateGrounded && stateManager.passiveAction)
+        //Actions in the Air
+        if (stateManager.stateAirborn)
         {
-            //Idle and Horizontal Movement Code
-            if (controlManager.idle || controlManager.buttonRight && controlManager.buttonLeft)
+            if (stateManager.passiveAction)
             {
-                universalPysicsManager.MoveCharacterFunction(0f);
-                actualAction = "Idle";
-            }
-            else if (controlManager.buttonRight)
-            {
-                universalPysicsManager.MoveCharacterFunction(1f);
-                actualAction = "MoveFoward";
-            }
-            else if (controlManager.buttonLeft)
-            {
-                universalPysicsManager.MoveCharacterFunction(-1f);
-                actualAction = "MoveBackward";
+                actualAction = "Fall";
             }
         }
 
-        //Jump
-        if (controlManager.buttonUp && totalJumps > 0)
+        //Actions outside the Ground Check
+
+        //Passive Actions
+        if (stateManager.passiveAction)
         {
-            universalPysicsManager.JumpCharacterFunction();
-            controlManager.buttonUp = false;
-            actualAction = "Jump";
-            --totalJumps;
+            //Jump
+            if (controlManager.buttonUp && totalJumps > 0)
+            {
+                universalPysicsManager.JumpCharacterFunction();
+                controlManager.buttonUp = false;
+                actualAction = "Jump";
+                --totalJumps;
+                stateManager.cancelableAction = true;
+            }
         }
 
     }
