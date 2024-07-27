@@ -2,4 +2,6 @@ Ver 0.1 24-7-24 - Basic Setup. Character Object. Basic Stage.
 
 Ver 0.2 25-7-24 - Character Basic Scripts. Character Ground State. Character horizontal movement and jump.
 
-Ver 0.3 26-7-24 - Crouch and Fall. Basic animations. 
+Ver 0.3 26-7-24 - Crouch and Fall. Basic animations.
+
+Ver 0.4 ?-?-? - Double Tap Inputs. Dash. 

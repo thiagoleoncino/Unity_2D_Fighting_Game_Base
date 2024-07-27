@@ -33,6 +33,14 @@ public class Scr_01_Control_Manager : MonoBehaviour
     public bool buttonUp;
     public bool buttonDown;
 
+    private bool tapping;
+    private float lastTap;
+    private KeyCode lastKey = KeyCode.None;
+    private float tapTime = 0.3f; //The time to detect the double tap
+
+    public bool buttonDashLeft;
+    public bool buttonDashRight;
+
     void Update()
     {
         if (player1)
@@ -45,7 +53,7 @@ public class Scr_01_Control_Manager : MonoBehaviour
             ControlPlayer2();
         }
 
-        idle = (!buttonLeft && !buttonRight && !buttonUp && !buttonDown); 
+        idle = (!buttonLeft && !buttonRight && !buttonUp && !buttonDown);
         //Variable that detects if an Action is being performed
     }
 
@@ -61,6 +69,34 @@ public class Scr_01_Control_Manager : MonoBehaviour
         }
     }
 
+    void DoubleTap(KeyCode key, ref bool buttonState)
+    {
+        if (Input.GetKeyDown(key))
+        {
+            if (!tapping)
+            {
+                tapping = true;
+                lastKey = key;
+                StartCoroutine(SingleTap());
+            }
+            else if (lastKey == key && (Time.time - lastTap) < tapTime)
+            {
+                tapping = false;
+                buttonState = true;
+            }
+            lastTap = Time.time;
+        }
+    }
+
+    IEnumerator SingleTap()
+    {
+        yield return new WaitForSeconds(tapTime);
+        if (tapping)
+        {
+            tapping = false;
+        }
+    }
+
     void ControlPlayer1()
     {
         //Movement Buttons
@@ -68,6 +104,9 @@ public class Scr_01_Control_Manager : MonoBehaviour
         UpdateButtonState(KeyCode.A, ref buttonLeft); //Button Left
         UpdateButtonState(KeyCode.W, ref buttonUp); //Button Up
         UpdateButtonState(KeyCode.D, ref buttonRight); //Button Right
+
+        DoubleTap(KeyCode.A, ref buttonDashLeft);
+        DoubleTap(KeyCode.D, ref buttonDashRight);
     } //Player 1 Inputs
 
     void ControlPlayer2()
@@ -77,6 +116,8 @@ public class Scr_01_Control_Manager : MonoBehaviour
         UpdateButtonState(KeyCode.LeftArrow, ref buttonLeft); //Button Left
         UpdateButtonState(KeyCode.UpArrow, ref buttonUp); //Button Up
         UpdateButtonState(KeyCode.RightArrow, ref buttonRight); //ButtonsRight
-    } //Player 2 Inputs
 
+        DoubleTap(KeyCode.LeftArrow, ref buttonDashLeft);
+        DoubleTap(KeyCode.RightArrow, ref buttonDashRight);
+    } //Player 2 Inputs
 }

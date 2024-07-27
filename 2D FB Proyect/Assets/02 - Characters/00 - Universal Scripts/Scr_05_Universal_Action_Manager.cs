@@ -38,12 +38,12 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 }
                 else if (controlManager.buttonRight)
                 {
-                    universalPysicsManager.MoveCharacterFunction(1f);
+                    universalPysicsManager.MoveCharacterFunction(characterStats.groundFowardSpeed);
                     actualAction = "MoveFoward";
                 }
                 else if (controlManager.buttonLeft)
                 {
-                    universalPysicsManager.MoveCharacterFunction(-1f);
+                    universalPysicsManager.MoveCharacterFunction(-characterStats.groundBackwardSpeed);
                     actualAction = "MoveBackward";
                 }
 
@@ -52,6 +52,19 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 {
                     actualAction = "Crouch";
                     stateManager.cancelableAction = true;
+                }
+
+                //Dash Code
+                if (controlManager.buttonDashRight)
+                {
+                    universalPysicsManager.MoveCharacterFunction(characterStats.dashFowardSpeed);
+                    actualAction = "DashFoward";
+                }
+
+                if (controlManager.buttonDashLeft)
+                {
+                    universalPysicsManager.MoveCharacterFunction(-characterStats.dashBackwardSpeed);
+                    actualAction = "DashBackward";
                 }
             }
 

@@ -1,7 +1,8 @@
 Ver 0.4:
-	- Dash
-	- Second character position and rotation.
-	
-Quedo en: 
+	- Landing (Code, Animations)
+	- Dash (Double Tap Code, Animations) *
+	- Second character position and rotation. (Rival Object Code, Actual Direction Code)
 
-	
+Quedo en: 
+	- Dash Completado
+	- Empezar Landing

@@ -21,6 +21,8 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"Fall",  "Anim_05_Ryu_Fall" },
         {"Crouch",  "Anim_06_Ryu_Crouch" },
         {"Standing",  "Anim_07_Ryu_Standing" },
+        {"DashFoward",  "Anim_08_Ryu_DashFoward" },
+        {"DashBackward",  "Anim_09_Ryu_DashBackwards" },
     };
 
     void Awake()
