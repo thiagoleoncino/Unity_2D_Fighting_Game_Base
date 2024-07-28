@@ -233,6 +233,8 @@ MonoBehaviour:
   buttonRight: 0
   buttonUp: 0
   buttonDown: 0
+  buttonDashLeft: 0
+  buttonDashRight: 0
 --- !u!114 &3034679072348074865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,7 +264,9 @@ MonoBehaviour:
   groundFowardSpeed: 3
   groundBackwardSpeed: 1.5
   jumpAmount: 1
-  jumpHeight: 5
+  jumpHeight: 8
+  dashFowardSpeed: 5
+  dashBackwardSpeed: 5
 --- !u!114 &3034679072348074830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,3 +293,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actualAction: 
   totalJumps: 0
+  playerObjetive: {fileID: 0}
+  rightSide: 0

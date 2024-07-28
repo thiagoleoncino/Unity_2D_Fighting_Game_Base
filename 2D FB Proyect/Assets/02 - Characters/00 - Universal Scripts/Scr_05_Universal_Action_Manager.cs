@@ -13,6 +13,10 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
 
     public int totalJumps;
 
+    //Turn Variables
+    public GameObject playerObjetive;
+    public bool rightSide;
+
     void Awake()
     {
         controlManager = GetComponent<Scr_01_Control_Manager>();
@@ -28,8 +32,11 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
         {
             totalJumps = characterStats.jumpAmount;
 
-            if(stateManager.passiveAction)
+            if (stateManager.passiveAction)
             {
+
+                TurnAround();
+
                 //Idle and Horizontal Movement Code
                 if (controlManager.idle || controlManager.buttonRight && controlManager.buttonLeft)
                 {
@@ -38,13 +45,28 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 }
                 else if (controlManager.buttonRight)
                 {
-                    universalPysicsManager.MoveCharacterFunction(characterStats.groundFowardSpeed);
-                    actualAction = "MoveFoward";
+                    if (rightSide) 
+                    {
+                        universalPysicsManager.MoveCharacterFunction(characterStats.groundFowardSpeed);
+                        actualAction = "MoveFoward";
+                    }
+                    else {
+                        universalPysicsManager.MoveCharacterFunction(characterStats.groundBackwardSpeed);
+                        actualAction = "MoveBackward";
+                        }
                 }
                 else if (controlManager.buttonLeft)
                 {
-                    universalPysicsManager.MoveCharacterFunction(-characterStats.groundBackwardSpeed);
-                    actualAction = "MoveBackward";
+                    if (rightSide) 
+                    {
+                        universalPysicsManager.MoveCharacterFunction(-characterStats.groundBackwardSpeed);
+                        actualAction = "MoveBackward"; 
+                    }
+                    else 
+                    {
+                        universalPysicsManager.MoveCharacterFunction(-characterStats.groundFowardSpeed);
+                        actualAction = "MoveFoward"; 
+                    }
                 }
 
                 //Crouch Code
@@ -57,14 +79,30 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 //Dash Code
                 if (controlManager.buttonDashRight)
                 {
-                    universalPysicsManager.MoveCharacterFunction(characterStats.dashFowardSpeed);
-                    actualAction = "DashFoward";
+                    if (rightSide)
+                    {
+                        universalPysicsManager.MoveCharacterFunction(characterStats.dashFowardSpeed);
+                        actualAction = "DashFoward";
+                    }
+                    else
+                    {
+                        universalPysicsManager.MoveCharacterFunction(characterStats.dashBackwardSpeed);
+                        actualAction = "DashBackward";
+                    }
                 }
 
                 if (controlManager.buttonDashLeft)
                 {
-                    universalPysicsManager.MoveCharacterFunction(-characterStats.dashBackwardSpeed);
-                    actualAction = "DashBackward";
+                    if (rightSide)
+                    {
+                        universalPysicsManager.MoveCharacterFunction(-characterStats.dashBackwardSpeed);
+                        actualAction = "DashBackward";
+                    }
+                    else
+                    {
+                        universalPysicsManager.MoveCharacterFunction(-characterStats.dashFowardSpeed);
+                        actualAction = "DashFoward";
+                    }
                 }
             }
 
@@ -107,4 +145,18 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
         }
 
     }
+
+    public void TurnAround()
+    {
+        if (playerObjetive.transform.position.x > transform.position.x)
+        {
+            rightSide = true;
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+        if (playerObjetive.transform.position.x < transform.position.x)
+        {
+            rightSide = false;
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+    } //Turn around
 }

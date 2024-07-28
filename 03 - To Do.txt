@@ -1,8 +1,14 @@
-Ver 0.4:
-	- Landing (Code, Animations)
-	- Dash (Double Tap Code, Animations) *
-	- Second character position and rotation. (Rival Object Code, Actual Direction Code)
+Ver 0.5:
+	- Ataques Normales
+	- Ataques Aereos
+	- Ataques Agachado
 
 Quedo en: 
-	- Dash Completado
-	- Empezar Landing
+
+	
+Bugs:
+	- Saltos
+		- Al saltar en un rival el Pj se queda trancado.
+	- Dash Completado (Bug fixes)
+		- Al hacer un dash en el aire, este se ejcutarautomaticamente al atteriar.
+		- Al hacer muchos dashes seguios, el jugador se tranca
