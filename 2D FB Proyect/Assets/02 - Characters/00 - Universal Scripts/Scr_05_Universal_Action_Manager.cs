@@ -104,11 +104,54 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                         actualAction = "DashFoward";
                     }
                 }
+
+                //Normal Attacks Code
+                if(controlManager.buttonLightPunch)
+                {
+                    actualAction = "LightPunch";
+                    stateManager.semiCancelableAction = true;
+                    universalPysicsManager.MoveCharacterFunction(0f);
+                } //LP
+
+                if (controlManager.buttonMediumPunch)
+                {
+                    actualAction = "MediumPunch";
+                    stateManager.semiCancelableAction = true;
+                    universalPysicsManager.MoveCharacterFunction(0f);
+                } //MP
+
+                if (controlManager.buttonHeavyPunch)
+                {
+                    actualAction = "HeavyPunch";
+                    stateManager.semiCancelableAction = true;
+                    universalPysicsManager.MoveCharacterFunction(0f);
+                } //HP
+
+                if (controlManager.buttonLightKick)
+                {
+                    actualAction = "LightKick";
+                    stateManager.semiCancelableAction = true;
+                    universalPysicsManager.MoveCharacterFunction(0f);
+                } //LK
+
+                if (controlManager.buttonMediumKick)
+                {
+                    actualAction = "MediumKick";
+                    stateManager.semiCancelableAction = true;
+                    universalPysicsManager.MoveCharacterFunction(0f);
+                } //MK
+
+                if (controlManager.buttonHeavyKick)
+                {
+                    actualAction = "HeavyKick";
+                    stateManager.semiCancelableAction = true;
+                    universalPysicsManager.MoveCharacterFunction(0f);
+                } //HK
             }
 
             if (stateManager.cancelableAction)
             {
-                //Character Standing from crouch
+                //Actions from crouch
                 if (actualAction == "Crouch")
                 {
                     if (!controlManager.buttonDown)

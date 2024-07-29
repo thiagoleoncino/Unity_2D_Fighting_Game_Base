@@ -23,6 +23,12 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"Standing",  "Anim_07_Ryu_Standing" },
         {"DashFoward",  "Anim_08_Ryu_DashFoward" },
         {"DashBackward",  "Anim_09_Ryu_DashBackwards" },
+        {"LightPunch",  "Anim_11_Ryu_NeutralLightPunch" },
+        {"MediumPunch",  "Anim_12_Ryu_NeutralMediumPunch" },
+        {"HeavyPunch",  "Anim_13_Ryu_NeutralHeavyPunch" },
+        {"LightKick",  "Anim_14_Ryu_NeutralLightKick" },
+        {"MediumKick",  "Anim_15_Ryu_NeutralMediumKick" },
+        {"HeavyKick",  "Anim_16_Ryu_NeutralHeavyKick" },
     };
 
     void Awake()

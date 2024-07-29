@@ -32,7 +32,8 @@ public class Scr_01_Control_Manager : MonoBehaviour
     public bool buttonRight;
     public bool buttonUp;
     public bool buttonDown;
-
+    
+    [Space] //Double Tap Detection
     private bool tapping;
     private float lastTap;
     private KeyCode lastKey = KeyCode.None;
@@ -40,6 +41,15 @@ public class Scr_01_Control_Manager : MonoBehaviour
 
     public bool buttonDashLeft;
     public bool buttonDashRight;
+
+    [Space] //Attack Buttons Detection
+    public bool buttonLightPunch;
+    public bool buttonMediumPunch;
+    public bool buttonHeavyPunch;
+
+    public bool buttonLightKick;
+    public bool buttonMediumKick;
+    public bool buttonHeavyKick;
 
     void Update()
     {
@@ -107,6 +117,14 @@ public class Scr_01_Control_Manager : MonoBehaviour
 
         DoubleTap(KeyCode.A, ref buttonDashLeft);
         DoubleTap(KeyCode.D, ref buttonDashRight);
+
+        UpdateButtonState(KeyCode.U, ref buttonLightPunch); //LP
+        UpdateButtonState(KeyCode.I, ref buttonMediumPunch); //MP
+        UpdateButtonState(KeyCode.O, ref buttonHeavyPunch); //HP
+
+        UpdateButtonState(KeyCode.J, ref buttonLightKick); //LK
+        UpdateButtonState(KeyCode.K, ref buttonMediumKick); //MK
+        UpdateButtonState(KeyCode.L, ref buttonHeavyKick); //HK
     } //Player 1 Inputs
 
     void ControlPlayer2()

@@ -3,7 +3,15 @@ Ver 0.5:
 	- Ataques Aereos
 	- Ataques Agachado
 
-Quedo en: 
+Quedo en:
+
+Pasos:	
+	- Actualizar Desing Document (Tamaño diapositiva 70%) (All*)
+	- Seleccionar y agregar Sprites (Normals *)
+	- Agregar Animacion (Normals *)
+	- Agregar codigo y necesarios a Untiy 
+	- Mientras ir actualizando Actual Version Change 
+	- Actualizar Program Document, List of Labels
 
 	
 Bugs:
@@ -12,3 +20,4 @@ Bugs:
 	- Dash Completado (Bug fixes)
 		- Al hacer un dash en el aire, este se ejcutarautomaticamente al atteriar.
 		- Al hacer muchos dashes seguios, el jugador se tranca
+		- If a dash is press while attacking, it will come out after the animation.
