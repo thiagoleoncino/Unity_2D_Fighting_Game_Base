@@ -29,6 +29,7 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"LightKick",  "Anim_14_Ryu_NeutralLightKick" },
         {"MediumKick",  "Anim_15_Ryu_NeutralMediumKick" },
         {"HeavyKick",  "Anim_16_Ryu_NeutralHeavyKick" },
+        {"JumpingLightPunch",  "Anim_17_Ryu_JumpLightPunch" },
     };
 
     void Awake()

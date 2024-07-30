@@ -12,6 +12,9 @@ New:
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 01 - Sprites"
 	+ Folder - "006 - Normal Punch Attacks"
 	+ Folder - "007 - Normal Kick Attacks"
+	+ Folder - "008 - Jump Punch Attacks"
+	+ Folder - "009 - Jump Kick Attacks"
+
 
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 03 - Animations"
 	+ Animation Clip - "Anim_11_Ryu_NeutralLightPunch"

@@ -168,6 +168,12 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
             if (stateManager.passiveAction)
             {
                 actualAction = "Fall";
+
+                if (controlManager.buttonLightPunch)
+                {
+                    actualAction = "JumpingLightPunch";
+                    stateManager.semiCancelableAction = true;
+                } //LP
             }
         }
 

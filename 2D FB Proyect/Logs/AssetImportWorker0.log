@@ -15,7 +15,7 @@ C:/Users/Usuario/Desktop/Unity_2D_Fighting_Game_Base/2D FB Proyect
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54168
+62489
 Successfully changed project path to: C:/Users/Usuario/Desktop/Unity_2D_Fighting_Game_Base/2D FB Proyect
 C:/Users/Usuario/Desktop/Unity_2D_Fighting_Game_Base/2D FB Proyect
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Usuario/Desktop/Unity_2D_Fighting_Game_Base/2D FB Proyect
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [39448] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 2550998402 [EditorId] 2550998402 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H1SVL1E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30780] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 2279276245 [EditorId] 2279276245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H1SVL1E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [39448] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 2550998402 [EditorId] 2550998402 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H1SVL1E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30780] Host "[IP] 192.168.1.17 [Port] 0 [Flags] 2 [Guid] 2279276245 [EditorId] 2279276245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H1SVL1E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 45.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,75 +68,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006977 seconds.
+Registered in 0.006585 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.369 seconds
+- Completed reload, in  0.374 seconds
 Domain Reload Profiling:
-	ReloadAssembly (370ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (374ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (240ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (248ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (58ms)
+			SetupTypeCache (54ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (142ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
+				RefreshPlugins (50ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003789 seconds.
+Registered in 0.004232 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  0.933 seconds
 Domain Reload Profiling:
-	ReloadAssembly (914ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (774ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (545ms)
+			SetupLoadedEditorAssemblies (554ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (474ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (481ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3436 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (108.6 KB). Loaded Objects now: 3898.
 Memory consumption went from 123.5 MB to 123.4 MB.
-Total: 2.159900 ms (FindLiveObjects: 0.189000 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.822800 ms  DeleteObjects: 0.085100 ms)
+Total: 2.012500 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.063200 ms MarkObjects: 1.656000 ms  DeleteObjects: 0.071300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,82 +167,552 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 84049.642813 seconds.
-  path: Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab
-  artifactKey: Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 45681.695686 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N8.png
+  artifactKey: Guid(7816d5dbd127c2e45a62eddfe48bf65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9475d150093a98273500a2391925f6b') in 0.136957 seconds 
-Number of asset objects unloaded after import = 120
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N8.png using Guid(7816d5dbd127c2e45a62eddfe48bf65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e5565c6c7fd1e7581d3ae1af264c62') in 0.074675 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011945 seconds.
-  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_11_Ryu_NeutralLightPunch.anim
-  artifactKey: Guid(9d6948feb10a3f34b8a95b11dbb21edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000013 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N6.png
+  artifactKey: Guid(222067a0fc8b6454e83a89a6c0df5b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_11_Ryu_NeutralLightPunch.anim using Guid(9d6948feb10a3f34b8a95b11dbb21edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae51656845f134d04d87f830ba44a96') in 0.003476 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N6.png using Guid(222067a0fc8b6454e83a89a6c0df5b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcd1fa7d388bb5c646bd6f82f8a121b') in 0.012285 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N2.png
+  artifactKey: Guid(ee58f7a6e6c10264694024c3794b750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N2.png using Guid(ee58f7a6e6c10264694024c3794b750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b432566f2672a5d852d0b2f0269f287') in 0.011316 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks
+  artifactKey: Guid(e9ad659fdb4bd7a4598231b7c81665b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks using Guid(e9ad659fdb4bd7a4598231b7c81665b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3082612be2224de1beb2733441e64055') in 0.001854 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000005 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N4.png
+  artifactKey: Guid(9354018c5049d1c4eb2ced33f5d31aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N4.png using Guid(9354018c5049d1c4eb2ced33f5d31aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1b99545074d53ac2dbaaa484e88eef') in 0.013253 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N2.png
+  artifactKey: Guid(aacff50840228c0458dac484bf2a0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N2.png using Guid(aacff50840228c0458dac484bf2a0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247c7d42331ac016ad504ce4ea1b33e7') in 0.011342 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N1.png
+  artifactKey: Guid(ef3b65b166ea3e5468b403ecc38254df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N1.png using Guid(ef3b65b166ea3e5468b403ecc38254df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788989e0a8e2e69fe6a1dfad330bc47e') in 0.011944 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N1.png
+  artifactKey: Guid(39b3b4c4dadfae0498d00441f0696d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N1.png using Guid(39b3b4c4dadfae0498d00441f0696d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f9f141dc7eb4ba4b7da52ddb9f87ed') in 0.013799 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N6.png
+  artifactKey: Guid(7ce9f03b066291c4caf334b04aa2024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N6.png using Guid(7ce9f03b066291c4caf334b04aa2024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c57640a39441cea4ba9c2ad7d40aed0') in 0.011944 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N1.png
+  artifactKey: Guid(98f91ac66cf6cdf4584eda45c0371f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N1.png using Guid(98f91ac66cf6cdf4584eda45c0371f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e902088f143271765ebfcf4056bb14') in 0.011769 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N3.png
+  artifactKey: Guid(3085334448e2e16489514c2322c8694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N3.png using Guid(3085334448e2e16489514c2322c8694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02bbb550d4d13c7987e54209f18576a') in 0.013357 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N4.png
+  artifactKey: Guid(41951b6eb162f1b46af93477e88ae9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N4.png using Guid(41951b6eb162f1b46af93477e88ae9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c3756da3d207572ab3fbd1f6f4fc7f') in 0.011814 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N3.png
+  artifactKey: Guid(11ad533bbd955a044a1c9c2485184912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N3.png using Guid(11ad533bbd955a044a1c9c2485184912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c721fd68de02297e028edfcde46e2799') in 0.012466 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N9.png
+  artifactKey: Guid(e8766cfcd9a2a8e4683bccbb89a0f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N9.png using Guid(e8766cfcd9a2a8e4683bccbb89a0f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0608bb3c8b5775e813da39ee9581cc61') in 0.011581 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N2.png
+  artifactKey: Guid(3eb02b0951cccc64a83b9e5d91cde627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N2.png using Guid(3eb02b0951cccc64a83b9e5d91cde627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40bce870f591a94647518a9dd9e326d') in 0.011466 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N5.png
+  artifactKey: Guid(0444ab0f1362c9649bcb8a712e19ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N5.png using Guid(0444ab0f1362c9649bcb8a712e19ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd821c3e4879afeaa2ea2a0d6f3b6b1') in 0.012070 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N7.png
+  artifactKey: Guid(05b8dd5da7b75de429f9c433462dfddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N7.png using Guid(05b8dd5da7b75de429f9c433462dfddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de89057035ee6d38e686399a9d1017b') in 0.012183 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N5.png
+  artifactKey: Guid(d6e897bf675f8c148bce61a29fdb9fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N5.png using Guid(d6e897bf675f8c148bce61a29fdb9fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578ba340ce2423537ac1f69b39a9ca9d') in 0.017728 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N3.png
+  artifactKey: Guid(e141ced420abc23488611adbae69e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N3.png using Guid(e141ced420abc23488611adbae69e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86177385972f625326e3274faf5e351') in 0.012352 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.144261 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N6.png
+  artifactKey: Guid(7ce9f03b066291c4caf334b04aa2024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N6.png using Guid(7ce9f03b066291c4caf334b04aa2024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43792cd4871a053215939cd4b293b6e2') in 0.037902 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N8.png
+  artifactKey: Guid(7816d5dbd127c2e45a62eddfe48bf65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N8.png using Guid(7816d5dbd127c2e45a62eddfe48bf65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e671e05b6695f75c46723e6489c9894f') in 0.015312 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N6.png
+  artifactKey: Guid(222067a0fc8b6454e83a89a6c0df5b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N6.png using Guid(222067a0fc8b6454e83a89a6c0df5b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604b7ee233eb19e1e2c700b5d71bfe0e') in 0.015242 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N2.png
+  artifactKey: Guid(ee58f7a6e6c10264694024c3794b750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N2.png using Guid(ee58f7a6e6c10264694024c3794b750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ea7ceef0e5262ed1794943f073953b') in 0.014759 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N4.png
+  artifactKey: Guid(9354018c5049d1c4eb2ced33f5d31aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N4.png using Guid(9354018c5049d1c4eb2ced33f5d31aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d1528254ff7e852295b20b1409590d') in 0.014466 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N2.png
+  artifactKey: Guid(aacff50840228c0458dac484bf2a0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N2.png using Guid(aacff50840228c0458dac484bf2a0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39891bea9a826527a47aec250a1dfaa') in 0.014472 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N1.png
+  artifactKey: Guid(ef3b65b166ea3e5468b403ecc38254df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N1.png using Guid(ef3b65b166ea3e5468b403ecc38254df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32f9781ac51add2d67e4ee1ebba9ebe') in 0.013735 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N1.png
+  artifactKey: Guid(39b3b4c4dadfae0498d00441f0696d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N1.png using Guid(39b3b4c4dadfae0498d00441f0696d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed535af3a384696d67cea90b6ea13e9') in 0.014445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N1.png
+  artifactKey: Guid(98f91ac66cf6cdf4584eda45c0371f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N1.png using Guid(98f91ac66cf6cdf4584eda45c0371f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8718204d6895fd9311d7628ad7e7c9') in 0.014424 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N3.png
+  artifactKey: Guid(3085334448e2e16489514c2322c8694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N3.png using Guid(3085334448e2e16489514c2322c8694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00129a3ddb706535254a35be69101c19') in 0.014249 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N4.png
+  artifactKey: Guid(41951b6eb162f1b46af93477e88ae9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N4.png using Guid(41951b6eb162f1b46af93477e88ae9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a79873fd74c78228b8ae81ffb541440') in 0.013805 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N3.png
+  artifactKey: Guid(11ad533bbd955a044a1c9c2485184912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_17_Ryu_JumpLightPunch_N3.png using Guid(11ad533bbd955a044a1c9c2485184912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed25928994c48777f5aa273b7632260') in 0.013360 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N9.png
+  artifactKey: Guid(e8766cfcd9a2a8e4683bccbb89a0f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N9.png using Guid(e8766cfcd9a2a8e4683bccbb89a0f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c1799c7524f047ca512dfb1a3a418c') in 0.013413 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N2.png
+  artifactKey: Guid(3eb02b0951cccc64a83b9e5d91cde627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N2.png using Guid(3eb02b0951cccc64a83b9e5d91cde627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9097bbf8464a0c1094472415a7413e1') in 0.014716 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N5.png
+  artifactKey: Guid(0444ab0f1362c9649bcb8a712e19ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N5.png using Guid(0444ab0f1362c9649bcb8a712e19ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f46cc581b92cda60eabc599b74d9dc') in 0.014718 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N7.png
+  artifactKey: Guid(05b8dd5da7b75de429f9c433462dfddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N7.png using Guid(05b8dd5da7b75de429f9c433462dfddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8b60d3ccbfa5211d2dc77e54860a2c') in 0.014401 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N5.png
+  artifactKey: Guid(d6e897bf675f8c148bce61a29fdb9fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_18_Ryu_JumpMediumPunch_N5.png using Guid(d6e897bf675f8c148bce61a29fdb9fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7571e84d1af051976e518ec9f960dc55') in 0.013433 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N3.png
+  artifactKey: Guid(e141ced420abc23488611adbae69e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/008 - Jump Punch Attacks/Spr_19_Ryu_JumpHeavyPunch_N3.png using Guid(e141ced420abc23488611adbae69e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea18901f8d8545da3e5d5b4dbbc5c81') in 0.013610 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.494356 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks
+  artifactKey: Guid(090b59b6ecef40e4ca201720e86a24bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks using Guid(090b59b6ecef40e4ca201720e86a24bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0252c872c35cdcdb7f32322391bd5ddb') in 0.002418 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.089905 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N1.png
+  artifactKey: Guid(af2c417219b4ae649a6243119ead012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N1.png using Guid(af2c417219b4ae649a6243119ead012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5968ea1da0416487fe5ab9de4894e26f') in 0.013161 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N4.png
+  artifactKey: Guid(bdbd611c66e17274aac74eb1cd6ee018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N4.png using Guid(bdbd611c66e17274aac74eb1cd6ee018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f2850f79a3c5d8ccdf1640142b6132') in 0.012071 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N3.png
+  artifactKey: Guid(9ec951cf4edcd4d4cac1082973c437d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N3.png using Guid(9ec951cf4edcd4d4cac1082973c437d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ae65cf55335616c2d1ff26c17b9a59') in 0.011817 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N5.png
+  artifactKey: Guid(2b5792f9492458b4e9270cf68f7bb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N5.png using Guid(2b5792f9492458b4e9270cf68f7bb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793f71897476ca95ad9306c2540db2c8') in 0.011455 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N5.png
+  artifactKey: Guid(b4a7b69198f6a2042a91214c0ef44019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N5.png using Guid(b4a7b69198f6a2042a91214c0ef44019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da538f7a11bbb1e21b9f51a259e8e50c') in 0.011474 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N2.png
+  artifactKey: Guid(3bb85e0c5fd3bb841bf3da41ea99ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N2.png using Guid(3bb85e0c5fd3bb841bf3da41ea99ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bad63f092d86fb0c8d6a50ad9d9f653') in 0.012669 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N1.png
+  artifactKey: Guid(4bc0637ea3e2bb1409fce53e1afa2a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N1.png using Guid(4bc0637ea3e2bb1409fce53e1afa2a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af085d0a3c9f9475fed6c05f9a870c8a') in 0.012075 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N2.png
+  artifactKey: Guid(6332fe1afe8832b4a99ef857fa766e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N2.png using Guid(6332fe1afe8832b4a99ef857fa766e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60286602c1afc297c87b86d2632366e6') in 0.012145 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N4.png
+  artifactKey: Guid(07565ab317769e245b5277c4a373b6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N4.png using Guid(07565ab317769e245b5277c4a373b6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7033b8c50d003d849d8a141a458ad967') in 0.011961 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N1.png
+  artifactKey: Guid(e6842944702d5c94ca1018780ff169d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N1.png using Guid(e6842944702d5c94ca1018780ff169d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c79e4d24ed2d9ebc6af224f404bc7c') in 0.011281 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N2.png
+  artifactKey: Guid(a6ea64d725cea444ba0f6a9ec5af6926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N2.png using Guid(a6ea64d725cea444ba0f6a9ec5af6926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76383f81bc485d50ab84aa60e3e32896') in 0.011343 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N5.png
+  artifactKey: Guid(88ba5db3badfba9429aba29fcf685fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N5.png using Guid(88ba5db3badfba9429aba29fcf685fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beee24dc57d416716cbe077ff359a0b') in 0.012099 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N3.png
+  artifactKey: Guid(1a9e5c559050da6408a9dc034643067e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N3.png using Guid(1a9e5c559050da6408a9dc034643067e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e2ce2b1d27e8ed90547d69232447ed') in 0.012083 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N4.png
+  artifactKey: Guid(1c837cff4b407264a9d1519e1a06125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N4.png using Guid(1c837cff4b407264a9d1519e1a06125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dd4c4437d81c00afbab8a2ff7d3d0d') in 0.011345 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N3.png
+  artifactKey: Guid(b0c1269cc0b16ac449a1373f9eda3a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N3.png using Guid(b0c1269cc0b16ac449a1373f9eda3a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423ab7e61ca518373cc5913f67fc0ede') in 0.011852 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.744623 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N4.png
+  artifactKey: Guid(07565ab317769e245b5277c4a373b6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N4.png using Guid(07565ab317769e245b5277c4a373b6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580708b4649f6d5cc6873f608e9ecba0') in 0.017558 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008781 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N1.png
+  artifactKey: Guid(af2c417219b4ae649a6243119ead012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N1.png using Guid(af2c417219b4ae649a6243119ead012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafb59fabf689f8e89a043f85999b94d') in 0.023684 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N4.png
+  artifactKey: Guid(bdbd611c66e17274aac74eb1cd6ee018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N4.png using Guid(bdbd611c66e17274aac74eb1cd6ee018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b070cfbbc6d95cb875656c8bb559bce9') in 0.015154 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N3.png
+  artifactKey: Guid(9ec951cf4edcd4d4cac1082973c437d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N3.png using Guid(9ec951cf4edcd4d4cac1082973c437d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b878f06c31bbc08ebb7023b624eb9c9f') in 0.015839 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N5.png
+  artifactKey: Guid(2b5792f9492458b4e9270cf68f7bb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N5.png using Guid(2b5792f9492458b4e9270cf68f7bb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1e1a84ced9301713290a12be8008d8') in 0.015770 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N5.png
+  artifactKey: Guid(b4a7b69198f6a2042a91214c0ef44019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N5.png using Guid(b4a7b69198f6a2042a91214c0ef44019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bd687d60833f324c44393f8f74e2de') in 0.015493 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N2.png
+  artifactKey: Guid(3bb85e0c5fd3bb841bf3da41ea99ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N2.png using Guid(3bb85e0c5fd3bb841bf3da41ea99ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f151bf9be7f7e056075fcf7169320e0a') in 0.014075 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N1.png
+  artifactKey: Guid(4bc0637ea3e2bb1409fce53e1afa2a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N1.png using Guid(4bc0637ea3e2bb1409fce53e1afa2a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0533d5e55c288d9be0b6576be7a50f8a') in 0.013202 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N2.png
+  artifactKey: Guid(6332fe1afe8832b4a99ef857fa766e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N2.png using Guid(6332fe1afe8832b4a99ef857fa766e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de62b4bd323ec459c50b0777039c637') in 0.013409 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N1.png
+  artifactKey: Guid(e6842944702d5c94ca1018780ff169d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N1.png using Guid(e6842944702d5c94ca1018780ff169d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a16df93ef24424309a5aa3674a3e78') in 0.013775 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N2.png
+  artifactKey: Guid(a6ea64d725cea444ba0f6a9ec5af6926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_22_Ryu_JumpHeavyKick_N2.png using Guid(a6ea64d725cea444ba0f6a9ec5af6926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045f34e353db50a7dba030a394e8812e') in 0.014123 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N5.png
+  artifactKey: Guid(88ba5db3badfba9429aba29fcf685fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N5.png using Guid(88ba5db3badfba9429aba29fcf685fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebf0135eebbed5fab9483b71c76f804') in 0.013624 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N3.png
+  artifactKey: Guid(1a9e5c559050da6408a9dc034643067e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_21_Ryu_JumpMediumKick_N3.png using Guid(1a9e5c559050da6408a9dc034643067e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fcc00dd6e7c9a005ec2599f9b6170e') in 0.014559 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N4.png
+  artifactKey: Guid(1c837cff4b407264a9d1519e1a06125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N4.png using Guid(1c837cff4b407264a9d1519e1a06125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6872e39312b080d31562a1cd797b5ce6') in 0.014058 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N3.png
+  artifactKey: Guid(b0c1269cc0b16ac449a1373f9eda3a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/01 - Sprites/009 - Jump Kick Attacks/Spr_20_Ryu_JumpLightKick_N3.png using Guid(b0c1269cc0b16ac449a1373f9eda3a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610532a7490d9bd817139cb295d6df1b') in 0.014140 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003748 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
-Domain Reload Profiling:
-	ReloadAssembly (933ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (766ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (531ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (467ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3909.
-Memory consumption went from 125.9 MB to 125.8 MB.
-Total: 2.071300 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.053500 ms MarkObjects: 1.767800 ms  DeleteObjects: 0.062600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003395 seconds.
+Registered in 0.003402 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
@@ -250,156 +720,40 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
+- Completed reload, in  0.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (929ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (769ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (136ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (536ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (471ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.1 KB). Loaded Objects now: 3912.
-Memory consumption went from 125.9 MB to 125.8 MB.
-Total: 2.054900 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.759000 ms  DeleteObjects: 0.057700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003419 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
-Domain Reload Profiling:
-	ReloadAssembly (887ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (730ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (514ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (452ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (66.5 KB). Loaded Objects now: 3915.
-Memory consumption went from 125.9 MB to 125.8 MB.
-Total: 2.144400 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.803100 ms  DeleteObjects: 0.060700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003647 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
-Domain Reload Profiling:
-	ReloadAssembly (891ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (733ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
-			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (516ms)
+			SetupLoadedEditorAssemblies (530ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadAttributes (467ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (66.6 KB). Loaded Objects now: 3918.
-Memory consumption went from 125.9 MB to 125.9 MB.
-Total: 4.826700 ms (FindLiveObjects: 1.352100 ms CreateObjectMapping: 0.159200 ms MarkObjects: 3.037900 ms  DeleteObjects: 0.276600 ms)
+Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3908.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 1.888300 ms (FindLiveObjects: 0.176700 ms CreateObjectMapping: 0.056800 ms MarkObjects: 1.597400 ms  DeleteObjects: 0.057000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -415,347 +769,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1155.419843 seconds.
+  Time since last request: 1066.289110 seconds.
   path: Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab
   artifactKey: Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22f22920febe295485156a2783e75d4') in 0.058081 seconds 
-Number of asset objects unloaded after import = 120
+Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60873fa79e0cc19657714e18c0f2fdf2') in 0.156050 seconds 
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 2.794960 seconds.
+  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_17_Ryu_JumpLightPunch.anim
+  artifactKey: Guid(2eac1c1f27bea7c419465e876a56e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_17_Ryu_JumpLightPunch.anim using Guid(2eac1c1f27bea7c419465e876a56e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb5d85141bfa7f6ac9056e6bd2fb123') in 0.003846 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003569 seconds.
+Registered in 0.003447 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Domain Reload Profiling:
-	ReloadAssembly (891ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (733ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (520ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (459ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (74.3 KB). Loaded Objects now: 3921.
-Memory consumption went from 125.9 MB to 125.9 MB.
-Total: 2.335400 ms (FindLiveObjects: 0.183700 ms CreateObjectMapping: 0.069200 ms MarkObjects: 2.033400 ms  DeleteObjects: 0.048700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003762 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 - Completed reload, in  0.902 seconds
 Domain Reload Profiling:
-	ReloadAssembly (902ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (903ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (746ms)
-			LoadAssemblies (61ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (133ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (525ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (460ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (66.5 KB). Loaded Objects now: 3924.
-Memory consumption went from 125.9 MB to 125.9 MB.
-Total: 1.992500 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.709400 ms  DeleteObjects: 0.051500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003573 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.924 seconds
-Domain Reload Profiling:
-	ReloadAssembly (924ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (2ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (744ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (530ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (463ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3927.
-Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 2.261800 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.071600 ms MarkObjects: 1.884800 ms  DeleteObjects: 0.069800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004490 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
-Domain Reload Profiling:
-	ReloadAssembly (930ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (768ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (534ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (467ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (74.2 KB). Loaded Objects now: 3930.
-Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 1.967400 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.071900 ms MarkObjects: 1.611200 ms  DeleteObjects: 0.058900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
-Domain Reload Profiling:
-	ReloadAssembly (927ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (764ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (23ms)
 			SetupLoadedEditorAssemblies (527ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (461ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3933.
-Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 1.904600 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.054200 ms MarkObjects: 1.566100 ms  DeleteObjects: 0.060100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003473 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.919 seconds
-Domain Reload Profiling:
-	ReloadAssembly (920ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (534ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadAttributes (464ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3936.
+Unloading 18 unused Assets / (66.6 KB). Loaded Objects now: 3916.
 Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 1.877500 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.053300 ms MarkObjects: 1.568000 ms  DeleteObjects: 0.060000 ms)
+Total: 2.845500 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.045400 ms MarkObjects: 2.521900 ms  DeleteObjects: 0.069800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -770,734 +842,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 577.074038 seconds.
-  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_11_Ryu_NeutralLightPunch.anim
-  artifactKey: Guid(9d6948feb10a3f34b8a95b11dbb21edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_11_Ryu_NeutralLightPunch.anim using Guid(9d6948feb10a3f34b8a95b11dbb21edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57a5fc6df928acfcd7bd47299de1560') in 0.017342 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004950 seconds.
+Registered in 0.003503 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.963 seconds
+- Completed reload, in  0.921 seconds
 Domain Reload Profiling:
-	ReloadAssembly (963ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (784ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (540ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (472ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.1 KB). Loaded Objects now: 3939.
-Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 2.013500 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.052900 ms MarkObjects: 1.715000 ms  DeleteObjects: 0.061900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 188.693913 seconds.
-  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_12_Ryu_NeutralMediumPunch.anim
-  artifactKey: Guid(c04077858b9d0ba43ade1d4c39052909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_12_Ryu_NeutralMediumPunch.anim using Guid(c04077858b9d0ba43ade1d4c39052909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a2dd8097390a2158eef5bd0dcb9cc2') in 0.015196 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 8.176426 seconds.
-  path: Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab
-  artifactKey: Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4586f60060b6d441d0c0516209896af2') in 0.049835 seconds 
-Number of asset objects unloaded after import = 120
-========================================================================
-Received Import Request.
-  Time since last request: 49.587751 seconds.
-  path: Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab
-  artifactKey: Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9577154936704533a0295d61eb34db8f') in 0.026483 seconds 
-Number of asset objects unloaded after import = 144
-========================================================================
-Received Import Request.
-  Time since last request: 1.795902 seconds.
-  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_12_Ryu_NeutralMediumPunch.anim
-  artifactKey: Guid(c04077858b9d0ba43ade1d4c39052909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_12_Ryu_NeutralMediumPunch.anim using Guid(c04077858b9d0ba43ade1d4c39052909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f709787cd2d92c49a105c3b480a4cf') in 0.002401 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.803759 seconds.
-  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_13_Ryu_NeutralHeavyPunch.anim
-  artifactKey: Guid(7fce8101883f1274a9c29eb4c8f29aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_13_Ryu_NeutralHeavyPunch.anim using Guid(7fce8101883f1274a9c29eb4c8f29aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5c3d2359ce151588a7700eefca1a9a') in 0.002858 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003426 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
-Domain Reload Profiling:
-	ReloadAssembly (888ms)
+	ReloadAssembly (922ms)
 		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (731ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (519ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (457ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3942.
-Memory consumption went from 126.0 MB to 125.9 MB.
-Total: 1.884600 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.063700 ms MarkObjects: 1.581800 ms  DeleteObjects: 0.049000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003435 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
-Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (535ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (470ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.1 KB). Loaded Objects now: 3945.
-Memory consumption went from 126.0 MB to 126.0 MB.
-Total: 2.323900 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.013300 ms  DeleteObjects: 0.063700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003561 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1071ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (896ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (161ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (633ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (569ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (66.6 KB). Loaded Objects now: 3948.
-Memory consumption went from 126.0 MB to 126.0 MB.
-Total: 2.695400 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.079600 ms MarkObjects: 2.341700 ms  DeleteObjects: 0.066500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1059.700410 seconds.
-  path: Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab
-  artifactKey: Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f111d0e94f089c7116d855ab8a24cc0') in 0.058353 seconds 
-Number of asset objects unloaded after import = 144
-========================================================================
-Received Import Request.
-  Time since last request: 93.875322 seconds.
-  path: Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab
-  artifactKey: Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14991e81423fa43ac500c8c99e465d3e') in 0.040813 seconds 
-Number of asset objects unloaded after import = 184
-========================================================================
-Received Import Request.
-  Time since last request: 42.967223 seconds.
-  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_14_Ryu_NeutralLightKick.anim
-  artifactKey: Guid(e4b9d9fd1a1f1444ca97e12cd989fb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_14_Ryu_NeutralLightKick.anim using Guid(e4b9d9fd1a1f1444ca97e12cd989fb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200b2136611d92034f1646926f756ef1') in 0.003049 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 7.033031 seconds.
-  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_15_Ryu_NeutralMediumKick.anim
-  artifactKey: Guid(1ead9c086d7c6d8438e8b04a76afb406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_15_Ryu_NeutralMediumKick.anim using Guid(1ead9c086d7c6d8438e8b04a76afb406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1d0275db093a80a8aa329cf8580684') in 0.003243 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 6.923743 seconds.
-  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_16_Ryu_NeutralHeavyKick.anim
-  artifactKey: Guid(a7c69fbffe795b24fbe411bee5f19d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_16_Ryu_NeutralHeavyKick.anim using Guid(a7c69fbffe795b24fbe411bee5f19d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05b211f2cb5431845873901a69ce3c7') in 0.002891 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003508 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
-Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (752ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (519ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (455ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (66.5 KB). Loaded Objects now: 3951.
-Memory consumption went from 126.1 MB to 126.0 MB.
-Total: 2.221300 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.865900 ms  DeleteObjects: 0.066000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003689 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
-Domain Reload Profiling:
-	ReloadAssembly (897ms)
-		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (739ms)
+		EndReloadAssembly (760ms)
 			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (515ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (452ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3954.
-Memory consumption went from 126.1 MB to 126.0 MB.
-Total: 2.154100 ms (FindLiveObjects: 0.235700 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.800300 ms  DeleteObjects: 0.061100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003624 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
-Domain Reload Profiling:
-	ReloadAssembly (892ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (732ms)
-			LoadAssemblies (61ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (517ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (455ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3957.
-Memory consumption went from 126.1 MB to 126.0 MB.
-Total: 1.884300 ms (FindLiveObjects: 0.195400 ms CreateObjectMapping: 0.054500 ms MarkObjects: 1.578500 ms  DeleteObjects: 0.055500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003480 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Domain Reload Profiling:
-	ReloadAssembly (907ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (743ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (523ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (459ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.1 KB). Loaded Objects now: 3960.
-Memory consumption went from 126.1 MB to 126.0 MB.
-Total: 2.087900 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.054400 ms MarkObjects: 1.742200 ms  DeleteObjects: 0.079800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003671 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Domain Reload Profiling:
-	ReloadAssembly (901ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (743ms)
-			LoadAssemblies (61ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (525ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (463ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3963.
-Memory consumption went from 126.1 MB to 126.0 MB.
-Total: 1.922000 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.081400 ms MarkObjects: 1.556600 ms  DeleteObjects: 0.066800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003429 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.900 seconds
-Domain Reload Profiling:
-	ReloadAssembly (900ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (746ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (522ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (459ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (74.4 KB). Loaded Objects now: 3966.
-Memory consumption went from 126.1 MB to 126.0 MB.
-Total: 1.976100 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.064200 ms MarkObjects: 1.634400 ms  DeleteObjects: 0.060200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 481.653165 seconds.
-  path: Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab
-  artifactKey: Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98e36c57654892460bef175a2f704f1') in 0.104882 seconds 
-Number of asset objects unloaded after import = 184
-========================================================================
-Received Import Request.
-  Time since last request: 1102.508593 seconds.
-  path: Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab
-  artifactKey: Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/02 - Characters/01 - Ryu/Character_01_Ryu_Object.prefab using Guid(282588b2f7208394792dbb32e38c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335e7b36547806fa3b8644ec791d9cb1') in 0.057698 seconds 
-Number of asset objects unloaded after import = 184
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004420 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  0.908 seconds
-Domain Reload Profiling:
-	ReloadAssembly (908ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (21ms)
+			RebuildScriptCaches (22ms)
 			SetupLoadedEditorAssemblies (530ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (469ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3969.
-Memory consumption went from 126.1 MB to 126.0 MB.
-Total: 2.093800 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.070000 ms MarkObjects: 1.769900 ms  DeleteObjects: 0.057000 ms)
+Unloading 18 unused Assets / (82.0 KB). Loaded Objects now: 3919.
+Memory consumption went from 126.0 MB to 125.9 MB.
+Total: 2.093600 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.779200 ms  DeleteObjects: 0.054600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1511,3 +899,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.685411 seconds.
+  path: Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_17_Ryu_JumpLightPunch.anim
+  artifactKey: Guid(2eac1c1f27bea7c419465e876a56e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/02 - Characters/01 - Ryu/03 - Animations/Anim_17_Ryu_JumpLightPunch.anim using Guid(2eac1c1f27bea7c419465e876a56e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb23af067ff8c6bf87968bcf0e32c041') in 0.014107 seconds 
+Number of asset objects unloaded after import = 1
