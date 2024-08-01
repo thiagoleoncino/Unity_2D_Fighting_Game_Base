@@ -30,6 +30,11 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"MediumKick",  "Anim_15_Ryu_NeutralMediumKick" },
         {"HeavyKick",  "Anim_16_Ryu_NeutralHeavyKick" },
         {"JumpingLightPunch",  "Anim_17_Ryu_JumpLightPunch" },
+        {"JumpingMediumPunch",  "Anim_18_Ryu_JumpMediumPunch" },
+        {"JumpingHeavyPunch",  "Anim_19_Ryu_JumpHeavyPunch" },
+        {"JumpingLightKick",  "Anim_20_Ryu_JumpLightKick" },
+        {"JumpingMediumKick",  "Anim_21_Ryu_JumpMediumKick" },
+        {"JumpingHeavyKick",  "Anim_22_Ryu_JumpHeavyKick" },
     };
 
     void Awake()

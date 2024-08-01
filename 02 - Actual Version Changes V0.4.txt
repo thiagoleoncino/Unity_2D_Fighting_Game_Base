@@ -23,6 +23,12 @@ New:
 	+ Animation Clip - "Anim_14_Ryu_NeutralLightKick"
 	+ Animation Clip - "Anim_15_Ryu_NeutralMediumKick"
 	+ Animation Clip - "Anim_16_Ryu_NeutralHeavyKick"
+	+ Animation Clip - "Anim_17_Ryu_JumpLightPunch"
+	+ Animation Clip - "Anim_18_Ryu_JumpMediumPunchk"
+	+ Animation Clip - "Anim_19_Ryu_JumpHeavyPunch"
+	+ Animation Clip - "Anim_17_Ryu_JumpLightPunch"
+	+ Animation Clip - "Anim_18_Ryu_JumpMediumPunchk"
+	+ Animation Clip - "Anim_19_Ryu_JumpHeavyPunch"
 
 ---------------------------------------------------------------
 Change:

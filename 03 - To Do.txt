@@ -17,7 +17,10 @@ Pasos:
 Bugs:
 	- Saltos
 		- Al saltar en un rival el Pj se queda trancado.
-	- Dash Completado (Bug fixes)
+	- Dash
 		- Al hacer un dash en el aire, este se ejcutarautomaticamente al atteriar.
 		- Al hacer muchos dashes seguios, el jugador se tranca
 		- If a dash is press while attacking, it will come out after the animation.
+	- Attacks
+		- Al mantener el boton presionado el ataque se repite infinitamente
+		- Al realizar un ataque aereo y aterrizar la animacion no se interrumpe

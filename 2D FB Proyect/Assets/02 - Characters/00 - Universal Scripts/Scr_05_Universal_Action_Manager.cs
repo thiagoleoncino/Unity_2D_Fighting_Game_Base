@@ -169,11 +169,42 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
             {
                 actualAction = "Fall";
 
+                //Jump Attacks
                 if (controlManager.buttonLightPunch)
                 {
                     actualAction = "JumpingLightPunch";
                     stateManager.semiCancelableAction = true;
                 } //LP
+
+                if (controlManager.buttonMediumPunch)
+                {
+                    actualAction = "JumpingMediumPunch";
+                    stateManager.semiCancelableAction = true;
+                } //MP
+
+                if (controlManager.buttonHeavyPunch)
+                {
+                    actualAction = "JumpingHeavyPunch";
+                    stateManager.semiCancelableAction = true;
+                } //HP
+
+                if (controlManager.buttonLightKick)
+                {
+                    actualAction = "JumpingLightKick";
+                    stateManager.semiCancelableAction = true;
+                } //LK
+
+                if (controlManager.buttonMediumKick)
+                {
+                    actualAction = "JumpingMediumKick";
+                    stateManager.semiCancelableAction = true;
+                } //MK
+
+                if (controlManager.buttonHeavyKick)
+                {
+                    actualAction = "JumpingHeavyKick";
+                    stateManager.semiCancelableAction = true;
+                } //HK
             }
         }
 
@@ -208,4 +239,12 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
     } //Turn around
+
+    public void Attack(string Action, float Move)
+    {
+        actualAction = Action;
+        stateManager.semiCancelableAction = true;
+
+        universalPysicsManager.MoveCharacterFunction(Move);
+    }
 }
