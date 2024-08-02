@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\02 - Characters\01 - Ryu\02 - Scripts\Scr_07_Ryu_Animation_Manager.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_02_State_Manager.cs" />
+    <Compile Include="Assets\02 - Characters\01 - Ryu\02 - Scripts\Scr_08_Ryu_Action_Manager.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_05_Universal_Action_Manager.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_06_Universal_Animation_Events.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_04_Universal_Physics_Manager.cs" />

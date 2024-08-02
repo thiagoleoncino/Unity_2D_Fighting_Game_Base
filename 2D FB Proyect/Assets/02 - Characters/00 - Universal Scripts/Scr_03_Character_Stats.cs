@@ -11,6 +11,8 @@ public class Scr_03_Character_Stats : MonoBehaviour
     [Space]
     public int jumpAmount;
     public int jumpHeight;
+    public int jumpFowardSpeed;
+    public int jumpBackwardSpeed;
 
     [Space]
     public int dashFowardSpeed;

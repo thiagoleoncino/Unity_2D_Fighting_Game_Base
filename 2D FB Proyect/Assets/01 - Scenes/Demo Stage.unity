@@ -1922,22 +1922,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3034679072348074829, guid: 282588b2f7208394792dbb32e38c4e67, type: 3}
-      propertyPath: dashFowardSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034679072348074829, guid: 282588b2f7208394792dbb32e38c4e67, type: 3}
-      propertyPath: dashBackwardSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3034679072348074831, guid: 282588b2f7208394792dbb32e38c4e67, type: 3}
       propertyPath: playerObjetive
       value: 
       objectReference: {fileID: 1466454893}
-    - target: {fileID: 3034679072348074867, guid: 282588b2f7208394792dbb32e38c4e67, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3034679072348074870, guid: 282588b2f7208394792dbb32e38c4e67, type: 3}
       propertyPath: m_RootOrder
       value: 5

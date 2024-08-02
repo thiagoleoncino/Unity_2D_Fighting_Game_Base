@@ -19,7 +19,7 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"MoveBackward",  "Anim_03_Ryu_WalkBackwards" },
         {"Jump",  "Anim_04_Ryu_Jump" },
         {"Fall",  "Anim_05_Ryu_Fall" },
-        {"Crouch",  "Anim_06_Ryu_Crouch" },
+        {"ToCrouch",  "Anim_06_Ryu_ToCrouch" },
         {"Standing",  "Anim_07_Ryu_Standing" },
         {"DashFoward",  "Anim_08_Ryu_DashFoward" },
         {"DashBackward",  "Anim_09_Ryu_DashBackwards" },
@@ -35,6 +35,13 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"JumpingLightKick",  "Anim_20_Ryu_JumpLightKick" },
         {"JumpingMediumKick",  "Anim_21_Ryu_JumpMediumKick" },
         {"JumpingHeavyKick",  "Anim_22_Ryu_JumpHeavyKick" },
+        {"CrouchLightPunch",  "Anim_23_Ryu_CrouchLightPunch" },
+        {"CrouchMediumPunch",  "Anim_24_Ryu_CrouchMediumPunch" },
+        {"CrouchHeavyPunch",  "Anim_25_Ryu_CrouchHeavyPunch" },
+        {"CrouchLightKick",  "Anim_26_Ryu_CrouchLightKick" },
+        {"CrouchMediumKick",  "Anim_27_Ryu_CrouchMediumKick" },
+        {"CrouchHeavyKick",  "Anim_28_Ryu_CrouchHeavyKick" },
+        {"Crouching",  "Anim_28_Ryu_CrouchHeavyKick" },
     };
 
     void Awake()

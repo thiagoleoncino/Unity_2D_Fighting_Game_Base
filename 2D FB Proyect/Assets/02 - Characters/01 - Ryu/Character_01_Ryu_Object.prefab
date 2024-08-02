@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 3034679072348074829}
   - component: {fileID: 3034679072348074830}
   - component: {fileID: 3034679072348074831}
+  - component: {fileID: 6907333221111926079}
   m_Layer: 0
   m_Name: Character_01_Ryu_Object
   m_TagString: Untagged
@@ -197,7 +198,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 3034679072348074871}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.25
   m_Height: 0.98
   m_Direction: 1
@@ -235,6 +236,12 @@ MonoBehaviour:
   buttonDown: 0
   buttonDashLeft: 0
   buttonDashRight: 0
+  buttonLightPunch: 0
+  buttonMediumPunch: 0
+  buttonHeavyPunch: 0
+  buttonLightKick: 0
+  buttonMediumKick: 0
+  buttonHeavyKick: 0
 --- !u!114 &3034679072348074865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,9 +271,11 @@ MonoBehaviour:
   groundFowardSpeed: 3
   groundBackwardSpeed: 1.5
   jumpAmount: 1
-  jumpHeight: 8
+  jumpHeight: 6
+  jumpFowardSpeed: 3
+  jumpBackwardSpeed: 1
   dashFowardSpeed: 5
-  dashBackwardSpeed: 5
+  dashBackwardSpeed: 2
 --- !u!114 &3034679072348074830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f039124f3eeb54483ce8289d02eae8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rigidBody: {fileID: 0}
 --- !u!114 &3034679072348074831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,3 +305,15 @@ MonoBehaviour:
   totalJumps: 0
   playerObjetive: {fileID: 0}
   rightSide: 0
+--- !u!114 &6907333221111926079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3034679072348074871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72108abe1d43dc54cabc0baf01e11072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

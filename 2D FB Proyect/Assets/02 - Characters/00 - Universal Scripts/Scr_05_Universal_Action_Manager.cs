@@ -17,6 +17,8 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
     public GameObject playerObjetive;
     public bool rightSide;
 
+    public bool crouching;
+
     void Awake()
     {
         controlManager = GetComponent<Scr_01_Control_Manager>();
@@ -40,18 +42,18 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 //Idle and Horizontal Movement Code
                 if (controlManager.idle || controlManager.buttonRight && controlManager.buttonLeft)
                 {
-                    universalPysicsManager.MoveCharacterFunction(0f);
+                    universalPysicsManager.MoveCharacterFunction(0f, 0f);
                     actualAction = "Idle";
                 }
                 else if (controlManager.buttonRight)
                 {
                     if (rightSide) 
                     {
-                        universalPysicsManager.MoveCharacterFunction(characterStats.groundFowardSpeed);
+                        universalPysicsManager.MoveCharacterFunction(characterStats.groundFowardSpeed, universalPysicsManager.rigidBody.velocity.y);
                         actualAction = "MoveFoward";
                     }
                     else {
-                        universalPysicsManager.MoveCharacterFunction(characterStats.groundBackwardSpeed);
+                        universalPysicsManager.MoveCharacterFunction(characterStats.groundBackwardSpeed, universalPysicsManager.rigidBody.velocity.y);
                         actualAction = "MoveBackward";
                         }
                 }
@@ -59,12 +61,12 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 {
                     if (rightSide) 
                     {
-                        universalPysicsManager.MoveCharacterFunction(-characterStats.groundBackwardSpeed);
+                        universalPysicsManager.MoveCharacterFunction(-characterStats.groundBackwardSpeed, universalPysicsManager.rigidBody.velocity.y);
                         actualAction = "MoveBackward"; 
                     }
                     else 
                     {
-                        universalPysicsManager.MoveCharacterFunction(-characterStats.groundFowardSpeed);
+                        universalPysicsManager.MoveCharacterFunction(-characterStats.groundFowardSpeed, universalPysicsManager.rigidBody.velocity.y);
                         actualAction = "MoveFoward"; 
                     }
                 }
@@ -72,7 +74,7 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 //Crouch Code
                 if (controlManager.buttonDown)
                 {
-                    actualAction = "Crouch";
+                    actualAction = "ToCrouch";
                     stateManager.cancelableAction = true;
                 }
 
@@ -81,12 +83,12 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 {
                     if (rightSide)
                     {
-                        universalPysicsManager.MoveCharacterFunction(characterStats.dashFowardSpeed);
+                        universalPysicsManager.MoveCharacterFunction(characterStats.dashFowardSpeed, universalPysicsManager.rigidBody.velocity.y);
                         actualAction = "DashFoward";
                     }
                     else
                     {
-                        universalPysicsManager.MoveCharacterFunction(characterStats.dashBackwardSpeed);
+                        universalPysicsManager.MoveCharacterFunction(characterStats.dashBackwardSpeed, universalPysicsManager.rigidBody.velocity.y);
                         actualAction = "DashBackward";
                     }
                 }
@@ -95,64 +97,22 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 {
                     if (rightSide)
                     {
-                        universalPysicsManager.MoveCharacterFunction(-characterStats.dashBackwardSpeed);
+                        universalPysicsManager.MoveCharacterFunction(-characterStats.dashBackwardSpeed, universalPysicsManager.rigidBody.velocity.y);
                         actualAction = "DashBackward";
                     }
                     else
                     {
-                        universalPysicsManager.MoveCharacterFunction(-characterStats.dashFowardSpeed);
+                        universalPysicsManager.MoveCharacterFunction(-characterStats.dashFowardSpeed, universalPysicsManager.rigidBody.velocity.y);
                         actualAction = "DashFoward";
                     }
                 }
 
-                //Normal Attacks Code
-                if(controlManager.buttonLightPunch)
-                {
-                    actualAction = "LightPunch";
-                    stateManager.semiCancelableAction = true;
-                    universalPysicsManager.MoveCharacterFunction(0f);
-                } //LP
-
-                if (controlManager.buttonMediumPunch)
-                {
-                    actualAction = "MediumPunch";
-                    stateManager.semiCancelableAction = true;
-                    universalPysicsManager.MoveCharacterFunction(0f);
-                } //MP
-
-                if (controlManager.buttonHeavyPunch)
-                {
-                    actualAction = "HeavyPunch";
-                    stateManager.semiCancelableAction = true;
-                    universalPysicsManager.MoveCharacterFunction(0f);
-                } //HP
-
-                if (controlManager.buttonLightKick)
-                {
-                    actualAction = "LightKick";
-                    stateManager.semiCancelableAction = true;
-                    universalPysicsManager.MoveCharacterFunction(0f);
-                } //LK
-
-                if (controlManager.buttonMediumKick)
-                {
-                    actualAction = "MediumKick";
-                    stateManager.semiCancelableAction = true;
-                    universalPysicsManager.MoveCharacterFunction(0f);
-                } //MK
-
-                if (controlManager.buttonHeavyKick)
-                {
-                    actualAction = "HeavyKick";
-                    stateManager.semiCancelableAction = true;
-                    universalPysicsManager.MoveCharacterFunction(0f);
-                } //HK
             }
 
             if (stateManager.cancelableAction)
             {
                 //Actions from crouch
-                if (actualAction == "Crouch")
+                if (actualAction == "ToCrouch")
                 {
                     if (!controlManager.buttonDown)
                     {
@@ -168,43 +128,6 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
             if (stateManager.passiveAction)
             {
                 actualAction = "Fall";
-
-                //Jump Attacks
-                if (controlManager.buttonLightPunch)
-                {
-                    actualAction = "JumpingLightPunch";
-                    stateManager.semiCancelableAction = true;
-                } //LP
-
-                if (controlManager.buttonMediumPunch)
-                {
-                    actualAction = "JumpingMediumPunch";
-                    stateManager.semiCancelableAction = true;
-                } //MP
-
-                if (controlManager.buttonHeavyPunch)
-                {
-                    actualAction = "JumpingHeavyPunch";
-                    stateManager.semiCancelableAction = true;
-                } //HP
-
-                if (controlManager.buttonLightKick)
-                {
-                    actualAction = "JumpingLightKick";
-                    stateManager.semiCancelableAction = true;
-                } //LK
-
-                if (controlManager.buttonMediumKick)
-                {
-                    actualAction = "JumpingMediumKick";
-                    stateManager.semiCancelableAction = true;
-                } //MK
-
-                if (controlManager.buttonHeavyKick)
-                {
-                    actualAction = "JumpingHeavyKick";
-                    stateManager.semiCancelableAction = true;
-                } //HK
             }
         }
 
@@ -213,17 +136,12 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
         //Passive Actions
         if (stateManager.passiveAction)
         {
-            //Jump
-            if (controlManager.buttonUp && totalJumps > 0)
+            // Jump
+            if (totalJumps > 0 && controlManager.buttonUp)
             {
-                universalPysicsManager.JumpCharacterFunction();
-                controlManager.buttonUp = false;
-                actualAction = "Jump";
-                --totalJumps;
-                stateManager.cancelableAction = true;
+                Jump();
             }
         }
-
     }
 
     public void TurnAround()
@@ -240,11 +158,38 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
         }
     } //Turn around
 
-    public void Attack(string Action, float Move)
+    public void Jump()
     {
-        actualAction = Action;
-        stateManager.semiCancelableAction = true;
+        if (controlManager.buttonRight)
+        {
+            if (rightSide)
+            {
+                universalPysicsManager.MoveCharacterFunction(characterStats.jumpFowardSpeed, characterStats.jumpHeight);
+            }
+            else
+            {
+                universalPysicsManager.MoveCharacterFunction(characterStats.jumpBackwardSpeed, characterStats.jumpHeight);
+            }
+        }
+        else if (controlManager.buttonLeft)
+        {
+            if (rightSide)
+            {
+                universalPysicsManager.MoveCharacterFunction(-characterStats.jumpBackwardSpeed, characterStats.jumpHeight);
+            }
+            else
+            {
+                universalPysicsManager.MoveCharacterFunction(-characterStats.jumpFowardSpeed, characterStats.jumpHeight);
+            }
+        }
+        else
+        {
+            universalPysicsManager.MoveCharacterFunction(0f, characterStats.jumpHeight);
+        } // Neutral Jump
 
-        universalPysicsManager.MoveCharacterFunction(Move);
+        controlManager.buttonUp = false;
+        actualAction = "Jump";
+        --totalJumps;
+        stateManager.cancelableAction = true;
     }
 }
