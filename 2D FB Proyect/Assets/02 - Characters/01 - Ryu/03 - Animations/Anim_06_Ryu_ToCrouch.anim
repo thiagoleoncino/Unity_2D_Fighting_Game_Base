@@ -25,6 +25,8 @@ AnimationClip:
       value: {fileID: 21300000, guid: 1237db634e254a045bf3e8d949921eae, type: 3}
     - time: 0.13333334
       value: {fileID: 21300000, guid: 610b1e3b99680ed4993c3fc27a9d9515, type: 3}
+    - time: 0.2
+      value: {fileID: 21300000, guid: 610b1e3b99680ed4993c3fc27a9d9515, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -47,12 +49,13 @@ AnimationClip:
     - {fileID: 21300000, guid: 5613502d1a091d64a98e34ca33ad435a, type: 3}
     - {fileID: 21300000, guid: 1237db634e254a045bf3e8d949921eae, type: 3}
     - {fileID: 21300000, guid: 610b1e3b99680ed4993c3fc27a9d9515, type: 3}
+    - {fileID: 21300000, guid: 610b1e3b99680ed4993c3fc27a9d9515, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.20000002
+    m_StopTime: 0.26666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -71,4 +74,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.20000002
+    functionName: EndCrouchAttack
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

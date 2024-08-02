@@ -6,4 +6,4 @@ Ver 0.3 26-7-24 - Crouch and Fall. Basic animations.
 
 Ver 0.4 27-7-24 - Double Tap Inputs. Dash. Second Player. Rotation.
 
-Ver 0.5 ?-?-24 - Character Specific Action Manager. Normal Attacks. Jump Attacks. 
+Ver 0.5 ?-?-24 - Character Specific Action Manager. Normal Attacks. Jump Attacks. Crouch Attacks.

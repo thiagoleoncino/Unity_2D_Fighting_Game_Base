@@ -23,7 +23,7 @@ public class Scr_08_Ryu_Action_Manager : MonoBehaviour
     private void FixedUpdate()
     {
         //Standing Attacks
-        if (stateManager.stateGrounded && stateManager.passiveAction)
+        if (stateManager.stateGrounded && stateManager.passiveAction || universalActionManager.actualAction == "Standing")
         {
 
             Attack(controlManager.buttonLightPunch, "LightPunch", 0f, 0f, true); //LP
@@ -57,7 +57,8 @@ public class Scr_08_Ryu_Action_Manager : MonoBehaviour
 
         }
 
-        if (universalActionManager.crouching)
+        //Crouch Attacks
+        if (universalActionManager.crouching || universalActionManager.actualAction == "ToCrouch")
         {
             Attack(controlManager.buttonLightPunch, "CrouchLightPunch", 0f, 0f, true); //LP
 

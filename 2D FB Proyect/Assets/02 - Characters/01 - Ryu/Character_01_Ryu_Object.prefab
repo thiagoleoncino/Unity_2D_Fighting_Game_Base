@@ -305,6 +305,7 @@ MonoBehaviour:
   totalJumps: 0
   playerObjetive: {fileID: 0}
   rightSide: 0
+  crouching: 0
 --- !u!114 &6907333221111926079
 MonoBehaviour:
   m_ObjectHideFlags: 0

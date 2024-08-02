@@ -1,11 +1,9 @@
-Ver 0.5:
-	- Ataques Normales
-	- Ataques Aereos
-	- Ataques Agachado
+Ver 0.6:
+	- Input Reader
+	- Command Normal
+	- Command Inputs
 
 Quedo en:
-	- Agregando estado Crouching
-	- Volver a Coruch despues de un Ataque
 
 Pasos:	
 	- Actualizar Desing Document
@@ -15,7 +13,6 @@ Pasos:
 	- Mientras ir actualizando Actual Version Change 
 	- Actualizar Program Document, List of Labels
 
-	
 Bugs:
 	- Saltos
 		- Al saltar en un rival el Pj se queda trancado.
@@ -26,5 +23,5 @@ Bugs:
 	- Attacks
 		- Al mantener el boton presionado el ataque se repite infinitamente
 		- Al realizar un ataque aereo y aterrizar la animacion no se interrumpe
-		- Al finalizar un ataque agachado el jugador repite la animacion de idle to crouch
-		- Al realizar un ataque agachado mientras se presiona una tecla de movimiento, al terminar el personaje se movera
+
+Active Changes Log: 2/8/24

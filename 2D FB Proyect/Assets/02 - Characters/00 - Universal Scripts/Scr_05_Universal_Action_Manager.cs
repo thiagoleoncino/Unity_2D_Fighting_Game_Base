@@ -75,6 +75,7 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 if (controlManager.buttonDown)
                 {
                     actualAction = "ToCrouch";
+                    universalPysicsManager.MoveCharacterFunction(0f,0f);
                     stateManager.cancelableAction = true;
                 }
 
@@ -112,11 +113,14 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
             if (stateManager.cancelableAction)
             {
                 //Actions from crouch
-                if (actualAction == "ToCrouch")
+                if (crouching)
                 {
+                    actualAction = "Crouching";
+
                     if (!controlManager.buttonDown)
                     {
                         actualAction = "Standing";
+                        crouching = false;
                     }
                 }
             }

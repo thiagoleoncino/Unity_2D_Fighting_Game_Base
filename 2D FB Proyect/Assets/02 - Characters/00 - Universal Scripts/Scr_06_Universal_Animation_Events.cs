@@ -33,8 +33,9 @@ public class Scr_06_Universal_Animation_Events : MonoBehaviour
         universalPysicsManager.MoveCharacterFunction(0f, 0f);
     }
 
-    public void Crouching()
+    public void EndCrouchAttack()
     {
         universalActionManager.crouching = true;
+        stateManager.cancelableAction = true;
     }
 }

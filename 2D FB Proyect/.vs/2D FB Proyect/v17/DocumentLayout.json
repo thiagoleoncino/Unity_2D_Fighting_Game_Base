@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\scr_06_universal_animation_events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_06_universal_animation_events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_07_ryu_animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_07_ryu_animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_08_ryu_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_08_ryu_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_08_ryu_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_06_universal_animation_events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_06_universal_animation_events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,54 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Scr_08_Ryu_Action_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_08_Ryu_Action_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_08_Ryu_Action_Manager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_08_Ryu_Action_Manager.cs",
+              "RelativeToolTip": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_08_Ryu_Action_Manager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T15:07:14.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Scr_06_Universal_Animation_Events.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_06_Universal_Animation_Events.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_06_Universal_Animation_Events.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_06_Universal_Animation_Events.cs",
               "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_06_Universal_Animation_Events.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwCYAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T00:14:01.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Scr_05_Universal_Action_Manager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
               "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAADwv3IAAAAnAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAADwv34AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T00:02:08.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Scr_07_Ryu_Animation_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
-              "RelativeDocumentMoniker": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
-              "RelativeToolTip": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T23:42:01.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Scr_08_Ryu_Action_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_08_Ryu_Action_Manager.cs",
-              "RelativeDocumentMoniker": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_08_Ryu_Action_Manager.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_08_Ryu_Action_Manager.cs",
-              "RelativeToolTip": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_08_Ryu_Action_Manager.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA7wDsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T21:54:01.123Z",
               "EditorCaption": ""
             }
           ]
