@@ -319,70 +319,73 @@ AnimatorStateMachine:
     m_Position: {x: 30, y: 480, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -911196142136932601}
-    m_Position: {x: 30, y: 530, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -8371971848358416127}
     m_Position: {x: 30, y: 580, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5523751959768013467}
-    m_Position: {x: 250, y: 560, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 7080039318100977233}
+    m_State: {fileID: -8371971848358416127}
     m_Position: {x: 30, y: 630, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -7301584855398549646}
+    m_State: {fileID: -5523751959768013467}
+    m_Position: {x: 250, y: 610, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7080039318100977233}
     m_Position: {x: 30, y: 680, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -13963565876282359}
+    m_State: {fileID: -7301584855398549646}
     m_Position: {x: 30, y: 730, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5208259260387174487}
+    m_State: {fileID: -13963565876282359}
     m_Position: {x: 30, y: 780, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -7985257437867876510}
+    m_State: {fileID: -5208259260387174487}
     m_Position: {x: 30, y: 830, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -7204262405406228268}
+    m_State: {fileID: -7985257437867876510}
     m_Position: {x: 30, y: 880, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 8346228398734795191}
-    m_Position: {x: 240, y: 630, z: 0}
+    m_State: {fileID: -7204262405406228268}
+    m_Position: {x: 30, y: 930, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -6818472259959176096}
+    m_State: {fileID: 8346228398734795191}
     m_Position: {x: 240, y: 680, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 2770346058431686510}
+    m_State: {fileID: -6818472259959176096}
     m_Position: {x: 240, y: 730, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 5269252368264477342}
+    m_State: {fileID: 2770346058431686510}
     m_Position: {x: 240, y: 780, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 4747525987851515744}
+    m_State: {fileID: 5269252368264477342}
     m_Position: {x: 240, y: 830, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5289313307503675436}
+    m_State: {fileID: 4747525987851515744}
     m_Position: {x: 240, y: 880, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 7149581498798730637}
-    m_Position: {x: 450, y: 630, z: 0}
+    m_State: {fileID: -5289313307503675436}
+    m_Position: {x: 240, y: 930, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3526451859314392121}
+    m_State: {fileID: 7149581498798730637}
     m_Position: {x: 450, y: 680, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -6193919340895936614}
+    m_State: {fileID: 3526451859314392121}
     m_Position: {x: 450, y: 730, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -614129722964501776}
+    m_State: {fileID: -6193919340895936614}
     m_Position: {x: 450, y: 780, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 5379520733069167629}
+    m_State: {fileID: -614129722964501776}
     m_Position: {x: 450, y: 830, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -998945630105161780}
+    m_State: {fileID: 5379520733069167629}
     m_Position: {x: 450, y: 880, z: 0}
   - serializedVersion: 1
+    m_State: {fileID: -998945630105161780}
+    m_Position: {x: 450, y: 930, z: 0}
+  - serializedVersion: 1
     m_State: {fileID: -6897600063174686321}
-    m_Position: {x: 270, y: 430, z: 0}
+    m_Position: {x: 30, y: 530, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 3157977144206497232}
+    m_Position: {x: 30, y: 980, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -637,6 +640,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 6550c0c2d6d91684492b79e5395ae302, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &3157977144206497232
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Anim_B01_Ryu_FowardHeavyPunch
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f755a6c47d26620479d4731281933d6e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

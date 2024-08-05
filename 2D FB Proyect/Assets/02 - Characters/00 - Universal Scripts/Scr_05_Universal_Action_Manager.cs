@@ -72,7 +72,7 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 }
 
                 //Crouch Code
-                if (controlManager.buttonDown)
+                if (controlManager.buttonDown || controlManager.buttonLeftDownDiagonal || controlManager.buttonRightDownDiagonal)
                 {
                     actualAction = "ToCrouch";
                     universalPysicsManager.MoveCharacterFunction(0f,0f);
@@ -117,7 +117,7 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 {
                     actualAction = "Crouching";
 
-                    if (!controlManager.buttonDown)
+                    if (!controlManager.buttonDown && !controlManager.buttonLeftDownDiagonal && !controlManager.buttonRightDownDiagonal)
                     {
                         actualAction = "Standing";
                         crouching = false;
@@ -141,9 +141,12 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
         if (stateManager.passiveAction)
         {
             // Jump
-            if (totalJumps > 0 && controlManager.buttonUp)
+            if (totalJumps > 0)
             {
-                Jump();
+                if(controlManager.buttonUp || controlManager.buttonLeftUpDiagonal || controlManager.buttonRightUpDiagonal)
+                {
+                    Jump();
+                }
             }
         }
     }
@@ -164,7 +167,7 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
 
     public void Jump()
     {
-        if (controlManager.buttonRight)
+        if (controlManager.buttonRightUpDiagonal)
         {
             if (rightSide)
             {
@@ -175,7 +178,7 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                 universalPysicsManager.MoveCharacterFunction(characterStats.jumpBackwardSpeed, characterStats.jumpHeight);
             }
         }
-        else if (controlManager.buttonLeft)
+        else if (controlManager.buttonLeftUpDiagonal)
         {
             if (rightSide)
             {

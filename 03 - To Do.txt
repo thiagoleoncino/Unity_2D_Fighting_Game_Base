@@ -1,7 +1,8 @@
 Ver 0.6:
-	- Input Reader
-	- Command Normal
-	- Command Inputs
+	- Add Diagonal Inputs *
+	- Add Normal Input Attacks *
+	- Add a Input Reader for Special Moves
+	- Add Special Moves
 
 Quedo en:
 
@@ -25,3 +26,8 @@ Bugs:
 		- Al realizar un ataque aereo y aterrizar la animacion no se interrumpe
 
 Active Changes Log: 2/8/24
+	- Add Normal Input Sprite and Animation *
+	- if (universalActionManager.rightSide) in Ryu Action Manager *
+	- Add Diagonal Code to Control Manager
+	- Add diagonals to Crouch actions and Jump
+

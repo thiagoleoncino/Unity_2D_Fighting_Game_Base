@@ -42,6 +42,7 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"CrouchMediumKick",  "Anim_27_Ryu_CrouchMediumKick" },
         {"CrouchHeavyKick",  "Anim_28_Ryu_CrouchHeavyKick" },
         {"Crouching",  "Anim_29_Ryu_Crouching" },
+        {"FowardHeavyPunch",  "Anim_B01_Ryu_FowardHeavyPunch" },
     };
 
     void Awake()

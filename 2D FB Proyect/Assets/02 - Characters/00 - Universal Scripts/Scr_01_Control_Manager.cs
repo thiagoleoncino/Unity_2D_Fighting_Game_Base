@@ -32,7 +32,11 @@ public class Scr_01_Control_Manager : MonoBehaviour
     public bool buttonRight;
     public bool buttonUp;
     public bool buttonDown;
-    
+    public bool buttonLeftDownDiagonal;
+    public bool buttonRightDownDiagonal;
+    public bool buttonLeftUpDiagonal;
+    public bool buttonRightUpDiagonal;
+
     [Space] //Double Tap Detection
     private bool tapping;
     private float lastTap;
@@ -114,6 +118,35 @@ public class Scr_01_Control_Manager : MonoBehaviour
         UpdateButtonState(KeyCode.A, ref buttonLeft); //Button Left
         UpdateButtonState(KeyCode.W, ref buttonUp); //Button Up
         UpdateButtonState(KeyCode.D, ref buttonRight); //Button Right
+
+        // Diagonal Movements
+        buttonLeftDownDiagonal = Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A);
+        buttonRightDownDiagonal = Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D);
+        buttonLeftUpDiagonal = Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A);
+        buttonRightUpDiagonal = Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D);
+
+        if (buttonLeftDownDiagonal)
+        {
+            buttonDown = false;
+            buttonLeft = false;
+            buttonRightDownDiagonal = false;
+        }
+        if (buttonRightDownDiagonal)
+        {
+            buttonDown = false;
+            buttonRight = false;
+            buttonLeftDownDiagonal = false;
+        }
+        if (buttonLeftUpDiagonal)
+        {
+            buttonUp = false;
+            buttonLeft = false;
+        }
+        if (buttonRightUpDiagonal)
+        {
+            buttonUp = false;
+            buttonRight = false;
+        }
 
         DoubleTap(KeyCode.A, ref buttonDashLeft);
         DoubleTap(KeyCode.D, ref buttonDashRight);

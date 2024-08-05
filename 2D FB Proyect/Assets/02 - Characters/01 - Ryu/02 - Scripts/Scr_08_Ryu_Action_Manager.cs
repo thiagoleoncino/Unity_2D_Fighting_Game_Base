@@ -37,6 +37,17 @@ public class Scr_08_Ryu_Action_Manager : MonoBehaviour
             Attack(controlManager.buttonMediumKick, "MediumKick", 0f, 0f, true); //MK
 
             Attack(controlManager.buttonHeavyKick, "HeavyKick", 0f, 0f, true); //HK
+
+            //Command Normals
+            if (universalActionManager.rightSide)
+            {
+                Attack(controlManager.buttonRight && controlManager.buttonHeavyPunch, "FowardHeavyPunch", 0f, 0f, true);
+            }
+            if (!universalActionManager.rightSide)
+            {
+                Attack(controlManager.buttonLeft && controlManager.buttonHeavyPunch, "FowardHeavyPunch", 0f, 0f, true);
+            }
+            
         }
 
         //Jumping Attacks
