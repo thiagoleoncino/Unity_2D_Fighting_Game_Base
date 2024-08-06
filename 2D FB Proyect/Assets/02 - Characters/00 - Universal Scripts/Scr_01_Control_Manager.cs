@@ -11,7 +11,7 @@ public enum PlayerControlNumber
 public class Scr_01_Control_Manager : MonoBehaviour
 {
     [Header("Player Bool")]
-    //Determines which player is in control
+    // Determines which player is in control
     public PlayerControlNumber ActualPlayer;
     public bool player1
     {
@@ -27,7 +27,7 @@ public class Scr_01_Control_Manager : MonoBehaviour
     [Header("Action Bool")]
     public bool idle;
 
-    [Space] //Movement Buttons Detection
+    [Space] // Movement Buttons Detection
     public bool buttonLeft;
     public bool buttonRight;
     public bool buttonUp;
@@ -37,16 +37,16 @@ public class Scr_01_Control_Manager : MonoBehaviour
     public bool buttonLeftUpDiagonal;
     public bool buttonRightUpDiagonal;
 
-    [Space] //Double Tap Detection
+    [Space] // Double Tap Detection
     private bool tapping;
     private float lastTap;
     private KeyCode lastKey = KeyCode.None;
-    private float tapTime = 0.3f; //The time to detect the double tap
+    private float tapTime = 0.3f; // The time to detect the double tap
 
     public bool buttonDashLeft;
     public bool buttonDashRight;
 
-    [Space] //Attack Buttons Detection
+    [Space] // Attack Buttons Detection
     public bool buttonLightPunch;
     public bool buttonMediumPunch;
     public bool buttonHeavyPunch;
@@ -68,7 +68,7 @@ public class Scr_01_Control_Manager : MonoBehaviour
         }
 
         idle = (!buttonLeft && !buttonRight && !buttonUp && !buttonDown);
-        //Variable that detects if an Action is being performed
+        // Variable that detects if an Action is being performed
     }
 
     void UpdateButtonState(KeyCode key, ref bool buttonState)
@@ -113,11 +113,11 @@ public class Scr_01_Control_Manager : MonoBehaviour
 
     void ControlPlayer1()
     {
-        //Movement Buttons
-        UpdateButtonState(KeyCode.S, ref buttonDown); //Button Down
-        UpdateButtonState(KeyCode.A, ref buttonLeft); //Button Left
-        UpdateButtonState(KeyCode.W, ref buttonUp); //Button Up
-        UpdateButtonState(KeyCode.D, ref buttonRight); //Button Right
+        // Movement Buttons
+        UpdateButtonState(KeyCode.S, ref buttonDown); // Button Down
+        UpdateButtonState(KeyCode.A, ref buttonLeft); // Button Left
+        UpdateButtonState(KeyCode.W, ref buttonUp); // Button Up
+        UpdateButtonState(KeyCode.D, ref buttonRight); // Button Right
 
         // Diagonal Movements
         buttonLeftDownDiagonal = Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A);
@@ -151,24 +151,56 @@ public class Scr_01_Control_Manager : MonoBehaviour
         DoubleTap(KeyCode.A, ref buttonDashLeft);
         DoubleTap(KeyCode.D, ref buttonDashRight);
 
-        UpdateButtonState(KeyCode.U, ref buttonLightPunch); //LP
-        UpdateButtonState(KeyCode.I, ref buttonMediumPunch); //MP
-        UpdateButtonState(KeyCode.O, ref buttonHeavyPunch); //HP
+        // Attack Buttons
+        UpdateButtonState(KeyCode.U, ref buttonLightPunch); // LP
+        UpdateButtonState(KeyCode.I, ref buttonMediumPunch); // MP
+        UpdateButtonState(KeyCode.O, ref buttonHeavyPunch); // HP
 
-        UpdateButtonState(KeyCode.J, ref buttonLightKick); //LK
-        UpdateButtonState(KeyCode.K, ref buttonMediumKick); //MK
-        UpdateButtonState(KeyCode.L, ref buttonHeavyKick); //HK
-    } //Player 1 Inputs
+        UpdateButtonState(KeyCode.J, ref buttonLightKick); // LK
+        UpdateButtonState(KeyCode.K, ref buttonMediumKick); // MK
+        UpdateButtonState(KeyCode.L, ref buttonHeavyKick); // HK
+    } // Player 1 Inputs
 
     void ControlPlayer2()
     {
-        //Movement Buttons
-        UpdateButtonState(KeyCode.DownArrow, ref buttonDown); //Button Down
-        UpdateButtonState(KeyCode.LeftArrow, ref buttonLeft); //Button Left
-        UpdateButtonState(KeyCode.UpArrow, ref buttonUp); //Button Up
-        UpdateButtonState(KeyCode.RightArrow, ref buttonRight); //ButtonsRight
+        // Movement Buttons
+        UpdateButtonState(KeyCode.DownArrow, ref buttonDown); // Button Down
+        UpdateButtonState(KeyCode.LeftArrow, ref buttonLeft); // Button Left
+        UpdateButtonState(KeyCode.UpArrow, ref buttonUp); // Button Up
+        UpdateButtonState(KeyCode.RightArrow, ref buttonRight); // Button Right
+
+        // Diagonal Movements
+        buttonLeftDownDiagonal = Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.LeftArrow);
+        buttonRightDownDiagonal = Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.RightArrow);
+        buttonLeftUpDiagonal = Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftArrow);
+        buttonRightUpDiagonal = Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.RightArrow);
+
+        if (buttonLeftDownDiagonal)
+        {
+            buttonDown = false;
+            buttonLeft = false;
+            buttonRightDownDiagonal = false;
+        }
+        if (buttonRightDownDiagonal)
+        {
+            buttonDown = false;
+            buttonRight = false;
+            buttonLeftDownDiagonal = false;
+        }
+        if (buttonLeftUpDiagonal)
+        {
+            buttonUp = false;
+            buttonLeft = false;
+        }
+        if (buttonRightUpDiagonal)
+        {
+            buttonUp = false;
+            buttonRight = false;
+        }
 
         DoubleTap(KeyCode.LeftArrow, ref buttonDashLeft);
         DoubleTap(KeyCode.RightArrow, ref buttonDashRight);
-    } //Player 2 Inputs
+
+        // Add attack button inputs for player 2 if needed
+    } // Player 2 Inputs
 }

@@ -355,6 +355,7 @@
 "Assets/02 - Characters/00 - Universal Scripts/Scr_06_Universal_Animation_Events.cs"
 "Assets/02 - Characters/01 - Ryu/02 - Scripts/Scr_07_Ryu_Animation_Manager.cs"
 "Assets/02 - Characters/01 - Ryu/02 - Scripts/Scr_08_Ryu_Action_Manager.cs"
+"Assets/02 - Characters/01 - Ryu/02 - Scripts/Scr_09_Ryu_SpecialMoves_Manager.cs"
 -langversion:9.0
 
 /deterministic

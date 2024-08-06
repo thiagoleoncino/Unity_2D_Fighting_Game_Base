@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_01_control_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\scr_01_control_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_01_control_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_05_universal_action_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_09_ryu_specialmoves_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_09_ryu_specialmoves_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Scr_05_Universal_Action_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
-              "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
-              "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_05_Universal_Action_Manager.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAowJMAAAAbAAAA",
+              "Title": "Scr_09_Ryu_SpecialMoves_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_09_Ryu_SpecialMoves_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_09_Ryu_SpecialMoves_Manager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_09_Ryu_SpecialMoves_Manager.cs",
+              "RelativeToolTip": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_09_Ryu_SpecialMoves_Manager.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T01:43:21.82Z",
+              "WhenOpened": "2024-08-06T21:27:08.134Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_01_Control_Manager.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_01_Control_Manager.cs",
               "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_01_Control_Manager.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAswIQAAAAJAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAwM4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T01:30:22.853Z",
               "EditorCaption": ""

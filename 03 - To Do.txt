@@ -1,6 +1,7 @@
 Ver 0.6:
 	- Add Diagonal Inputs *
 	- Add Normal Input Attacks *
+	- Rework Inputs, use Unity New Input System 
 	- Add a Input Reader for Special Moves
 	- Add Special Moves
 
@@ -25,9 +26,6 @@ Bugs:
 		- Al mantener el boton presionado el ataque se repite infinitamente
 		- Al realizar un ataque aereo y aterrizar la animacion no se interrumpe
 
-Active Changes Log: 2/8/24
-	- Add Normal Input Sprite and Animation *
-	- if (universalActionManager.rightSide) in Ryu Action Manager *
-	- Add Diagonal Code to Control Manager
-	- Add diagonals to Crouch actions and Jump
+Active Changes Log: 6/8/24
+	- Creating new Script "Scr_09_ Character0_SpecialMoves_Manager"
 

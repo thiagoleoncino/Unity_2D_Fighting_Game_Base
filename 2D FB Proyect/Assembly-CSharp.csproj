@@ -64,6 +64,7 @@
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_04_Universal_Physics_Manager.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_03_Character_Stats.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_01_Control_Manager.cs" />
+    <Compile Include="Assets\02 - Characters\01 - Ryu\02 - Scripts\Scr_09_Ryu_SpecialMoves_Manager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
