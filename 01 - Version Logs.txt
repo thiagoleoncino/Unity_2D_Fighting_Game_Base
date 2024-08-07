@@ -8,4 +8,4 @@ Ver 0.4 27-7-24 - Double Tap Inputs. Dash. Second Player. Rotation.
 
 Ver 0.5 2-8-24 - Character Specific Action Manager. Normal Attacks. Jump Attacks. Crouch Attacks.
 
-Ver 0.6 ?-?-24 - Normal Input. Special Moves.
+Ver 0.6 ?-?-24 - Change Input Detection. Command Normals. Special Command Manager. Command Special.

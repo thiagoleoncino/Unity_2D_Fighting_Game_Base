@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public enum PlayerControlNumber
 {
@@ -10,6 +11,8 @@ public enum PlayerControlNumber
 
 public class Scr_01_Control_Manager : MonoBehaviour
 {
+    private Player_Input_Action controls;
+
     [Header("Player Bool")]
     // Determines which player is in control
     public PlayerControlNumber ActualPlayer;
@@ -26,181 +29,99 @@ public class Scr_01_Control_Manager : MonoBehaviour
 
     [Header("Action Bool")]
     public bool idle;
-
     [Space] // Movement Buttons Detection
-    public bool buttonLeft;
-    public bool buttonRight;
-    public bool buttonUp;
-    public bool buttonDown;
-    public bool buttonLeftDownDiagonal;
-    public bool buttonRightDownDiagonal;
-    public bool buttonLeftUpDiagonal;
     public bool buttonRightUpDiagonal;
-
+    public bool buttonRight;
+    public bool buttonRightDownDiagonal;
+    [Space]
+    public bool buttonDown;
+    [Space]
+    public bool buttonLeftDownDiagonal;
+    public bool buttonLeft;
+    public bool buttonLeftUpDiagonal;
+    [Space]
+    public bool buttonUp;
     [Space] // Double Tap Detection
-    private bool tapping;
-    private float lastTap;
-    private KeyCode lastKey = KeyCode.None;
-    private float tapTime = 0.3f; // The time to detect the double tap
-
     public bool buttonDashLeft;
     public bool buttonDashRight;
-
     [Space] // Attack Buttons Detection
     public bool buttonLightPunch;
     public bool buttonMediumPunch;
     public bool buttonHeavyPunch;
-
+    [Space]
     public bool buttonLightKick;
     public bool buttonMediumKick;
     public bool buttonHeavyKick;
 
-    void Update()
+    private void Awake()
     {
+        controls = new Player_Input_Action();
+    }
+
+    private void OnEnable()
+    {
+        controls.Enable();
+
         if (player1)
         {
             ControlPlayer1();
         }
-
         if (player2)
         {
             ControlPlayer2();
         }
-
-        idle = (!buttonLeft && !buttonRight && !buttonUp && !buttonDown);
-        // Variable that detects if an Action is being performed
     }
 
-    void UpdateButtonState(KeyCode key, ref bool buttonState)
+    private void OnDisable()
     {
-        if (Input.GetKeyDown(key))
-        {
-            buttonState = true;
-        }
-        if (Input.GetKeyUp(key))
-        {
-            buttonState = false;
-        }
+        controls.Disable();
     }
 
-    void DoubleTap(KeyCode key, ref bool buttonState)
+    private void Update()
     {
-        if (Input.GetKeyDown(key))
-        {
-            if (!tapping)
-            {
-                tapping = true;
-                lastKey = key;
-                StartCoroutine(SingleTap());
-            }
-            else if (lastKey == key && (Time.time - lastTap) < tapTime)
-            {
-                tapping = false;
-                buttonState = true;
-            }
-            lastTap = Time.time;
-        }
-    }
-
-    IEnumerator SingleTap()
-    {
-        yield return new WaitForSeconds(tapTime);
-        if (tapping)
-        {
-            tapping = false;
-        }
+        idle = (!buttonLeft && !buttonRight && !buttonUp && !buttonDown); // Variable that detects if an Action is being performed
     }
 
     void ControlPlayer1()
     {
         // Movement Buttons
-        UpdateButtonState(KeyCode.S, ref buttonDown); // Button Down
-        UpdateButtonState(KeyCode.A, ref buttonLeft); // Button Left
-        UpdateButtonState(KeyCode.W, ref buttonUp); // Button Up
-        UpdateButtonState(KeyCode.D, ref buttonRight); // Button Right
+        InputActionBool(controls.Player1.Left, value => buttonLeft = value);
+        InputActionBool(controls.Player1.Right, value => buttonRight = value);
+        InputActionBool(controls.Player1.Up, value => buttonUp = value);
+        InputActionBool(controls.Player1.Down, value => buttonDown = value);
 
-        // Diagonal Movements
-        buttonLeftDownDiagonal = Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A);
-        buttonRightDownDiagonal = Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D);
-        buttonLeftUpDiagonal = Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A);
-        buttonRightUpDiagonal = Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D);
+        // Diagonal Down
+        InputActionBool(controls.Player1.LeftDownDiagonal, value => buttonLeftDownDiagonal = value);
+        InputActionBool(controls.Player1.RightDownDiagonal, value => buttonRightDownDiagonal = value);
 
-        if (buttonLeftDownDiagonal)
-        {
-            buttonDown = false;
-            buttonLeft = false;
-            buttonRightDownDiagonal = false;
-        }
-        if (buttonRightDownDiagonal)
-        {
-            buttonDown = false;
-            buttonRight = false;
-            buttonLeftDownDiagonal = false;
-        }
-        if (buttonLeftUpDiagonal)
-        {
-            buttonUp = false;
-            buttonLeft = false;
-        }
-        if (buttonRightUpDiagonal)
-        {
-            buttonUp = false;
-            buttonRight = false;
-        }
+        // Diagonal Up
+        InputActionBool(controls.Player1.LeftUpDiagonal, value => buttonLeftUpDiagonal = value);
+        InputActionBool(controls.Player1.RightUpDiagonal, value => buttonRightUpDiagonal = value);
+;
+        // Dash
+        InputActionBool(controls.Player1.DashLeft, value => buttonDashLeft = value);
+        InputActionBool(controls.Player1.DashRight, value => buttonDashRight = value);
 
-        DoubleTap(KeyCode.A, ref buttonDashLeft);
-        DoubleTap(KeyCode.D, ref buttonDashRight);
+        // Attack Punch Buttons
+        InputActionBool(controls.Player1.LP, value => buttonLightPunch = value);
+        InputActionBool(controls.Player1.MP, value => buttonMediumPunch = value);
+        InputActionBool(controls.Player1.HP, value => buttonHeavyPunch = value);
 
-        // Attack Buttons
-        UpdateButtonState(KeyCode.U, ref buttonLightPunch); // LP
-        UpdateButtonState(KeyCode.I, ref buttonMediumPunch); // MP
-        UpdateButtonState(KeyCode.O, ref buttonHeavyPunch); // HP
+        // Attack Kick Buttons
+        InputActionBool(controls.Player1.LK, value => buttonLightKick = value);
+        InputActionBool(controls.Player1.MK, value => buttonMediumKick = value);
+        InputActionBool(controls.Player1.HK, value => buttonHeavyKick = value);
 
-        UpdateButtonState(KeyCode.J, ref buttonLightKick); // LK
-        UpdateButtonState(KeyCode.K, ref buttonMediumKick); // MK
-        UpdateButtonState(KeyCode.L, ref buttonHeavyKick); // HK
     } // Player 1 Inputs
 
     void ControlPlayer2()
     {
-        // Movement Buttons
-        UpdateButtonState(KeyCode.DownArrow, ref buttonDown); // Button Down
-        UpdateButtonState(KeyCode.LeftArrow, ref buttonLeft); // Button Left
-        UpdateButtonState(KeyCode.UpArrow, ref buttonUp); // Button Up
-        UpdateButtonState(KeyCode.RightArrow, ref buttonRight); // Button Right
 
-        // Diagonal Movements
-        buttonLeftDownDiagonal = Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.LeftArrow);
-        buttonRightDownDiagonal = Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.RightArrow);
-        buttonLeftUpDiagonal = Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftArrow);
-        buttonRightUpDiagonal = Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.RightArrow);
-
-        if (buttonLeftDownDiagonal)
-        {
-            buttonDown = false;
-            buttonLeft = false;
-            buttonRightDownDiagonal = false;
-        }
-        if (buttonRightDownDiagonal)
-        {
-            buttonDown = false;
-            buttonRight = false;
-            buttonLeftDownDiagonal = false;
-        }
-        if (buttonLeftUpDiagonal)
-        {
-            buttonUp = false;
-            buttonLeft = false;
-        }
-        if (buttonRightUpDiagonal)
-        {
-            buttonUp = false;
-            buttonRight = false;
-        }
-
-        DoubleTap(KeyCode.LeftArrow, ref buttonDashLeft);
-        DoubleTap(KeyCode.RightArrow, ref buttonDashRight);
-
-        // Add attack button inputs for player 2 if needed
     } // Player 2 Inputs
+
+    private void InputActionBool(InputAction inputAction, System.Action<bool> boolAction)
+    {
+        inputAction.performed += ctx => boolAction(true);
+        inputAction.canceled += ctx => boolAction(false);
+    }
 }
