@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 3034679072348074830}
   - component: {fileID: 3034679072348074831}
   - component: {fileID: 6907333221111926079}
-  - component: {fileID: 3435445949241325185}
+  - component: {fileID: 5282419255145045371}
   m_Layer: 0
   m_Name: Character_01_Ryu_Object
   m_TagString: Untagged
@@ -231,14 +231,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ActualPlayer: 0
   idle: 0
-  buttonLeft: 0
+  buttonRightUpDiagonal: 0
   buttonRight: 0
-  buttonUp: 0
+  buttonRightDownDiagonal: 0
   buttonDown: 0
   buttonLeftDownDiagonal: 0
-  buttonRightDownDiagonal: 0
+  buttonLeft: 0
   buttonLeftUpDiagonal: 0
-  buttonRightUpDiagonal: 0
+  buttonUp: 0
   buttonDashLeft: 0
   buttonDashRight: 0
   buttonLightPunch: 0
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72108abe1d43dc54cabc0baf01e11072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3435445949241325185
+--- !u!114 &5282419255145045371
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -335,4 +335,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b7c75b2b72bcee418e10fea1ab10e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlManager: {fileID: 3034679072348074866}
+  inputBuffer: []

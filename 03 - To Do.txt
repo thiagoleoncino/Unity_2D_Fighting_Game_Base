@@ -2,11 +2,12 @@ Ver 0.6:
 	- Add Diagonal Inputs *
 	- Add Normal Input Attacks *
 	- Rework Inputs, use Unity New Input System *
-	- Add a Input Reader for Special Moves
+	- Add a Input Reader for Special Moves *
+	- add a Input Inerpreter for Special Moves
 	- Add Special Moves
 
 Quedo en:
-
+	- Input listener in "Scr_09_Ryu_SpecialMoves_Manager"
 Pasos:	
 	- Actualizar Desing Document
 	- Seleccionar y agregar Sprites
@@ -25,6 +26,7 @@ Bugs:
 	- Attacks
 		- Al mantener el boton presionado el ataque se repite infinitamente
 		- Al realizar un ataque aereo y aterrizar la animacion no se interrumpe
+		- Los Ataques se cancelan entre ellos al presionar uno diferente
 
 Active Changes Log: 7/8/24
 
