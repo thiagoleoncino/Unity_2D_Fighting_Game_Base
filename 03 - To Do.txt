@@ -3,11 +3,14 @@ Ver 0.6:
 	- Add Normal Input Attacks *
 	- Rework Inputs, use Unity New Input System *
 	- Add a Input Reader for Special Moves *
-	- add a Input Inerpreter for Special Moves
-	- Add Special Moves
+	- add a Input Inerpreter for Special Moves *
+	- Add Special Moves *
+	- Correct some bugs
+	- Update Program Document
 
-Quedo en:
-	- Input listener in "Scr_09_Ryu_SpecialMoves_Manager"
+Quedo en: 12/8/24
+	- Actualizar el Documento y corregir bugs
+
 Pasos:	
 	- Actualizar Desing Document
 	- Seleccionar y agregar Sprites
@@ -27,6 +30,9 @@ Bugs:
 		- Al mantener el boton presionado el ataque se repite infinitamente
 		- Al realizar un ataque aereo y aterrizar la animacion no se interrumpe
 		- Los Ataques se cancelan entre ellos al presionar uno diferente
+	- Spcials
+		- Si el ataque termina con LP, primero pasa la animacion de LP y despues la de Special1
 
-Active Changes Log: 7/8/24
-
+Active Changes Log: 12/8/24
+	- Scr_09_Ryu_Special_Moves_Manager casi completo
+	- Agregar evento final en Scr_08_Ryu_Action_Manager

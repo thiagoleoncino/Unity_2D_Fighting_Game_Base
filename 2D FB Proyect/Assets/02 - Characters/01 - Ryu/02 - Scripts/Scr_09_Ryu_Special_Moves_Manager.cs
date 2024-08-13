@@ -4,68 +4,129 @@ using UnityEngine;
 public class Scr_09_Ryu_Special_Moves_Manager : MonoBehaviour
 {
     private Scr_01_Control_Manager controlManager;
+    private Scr_02_State_Manager stateManager;
+    private Scr_05_Universal_Action_Manager universalActionManager;
 
-    private HashSet<string> currentInputs = new HashSet<string>(); // Track active inputs
+    public HashSet<string> currentInputs = new HashSet<string>();   // Track active inputs
     private HashSet<string> previousInputs = new HashSet<string>(); // Track previous frame's inputs
 
-    public List<string> inputTracker = new List<string>(); //Shows the current inputs
+    private List<float> inputTimes = new List<float>();             // Tracks times for each input
+    public List<string> inputTracker = new List<string>();          // Tracks inputs (visible in editor)
+
+    private const float CommandTimer = 0.7f;        // Maximum time allowed between inputs
+    private int lastSuccessfulInputIndex = -1;      // Track the index of the last successful input sequence
+
+    // Special Bools
+    public bool Special1; // Especial 1
 
     private void Awake()
     {
         controlManager = GetComponent<Scr_01_Control_Manager>();
-    }
-
-    private void Update()
-    {
-        CaptureInputs();
+        stateManager = GetComponent<Scr_02_State_Manager>();
+        universalActionManager = GetComponent<Scr_05_Universal_Action_Manager>();
     }
 
     private void CaptureInputs() // Keeps track of the inputs
     {
-        // Clear current inputs at the start of each frame
         currentInputs.Clear();
 
-        // Right Inputs
-        if (controlManager.buttonRight) currentInputs.Add("Right");
-        if (controlManager.buttonRightUpDiagonal) currentInputs.Add("RightUp");
-        if (controlManager.buttonRightDownDiagonal) currentInputs.Add("RightDown");
+        AddInput(controlManager.buttonRight, "Right");
+        AddInput(controlManager.buttonRightUpDiagonal, "RightUp");
+        AddInput(controlManager.buttonRightDownDiagonal, "RightDown");
 
-        // Left Inputs
-        if (controlManager.buttonLeft) currentInputs.Add("Left");
-        if (controlManager.buttonLeftUpDiagonal) currentInputs.Add("LeftUp");
-        if (controlManager.buttonLeftDownDiagonal) currentInputs.Add("LeftDownDiagonal");
+        AddInput(controlManager.buttonLeft, "Left");
+        AddInput(controlManager.buttonLeftUpDiagonal, "LeftUp");
+        AddInput(controlManager.buttonLeftDownDiagonal, "LeftDownDiagonal");
 
-        // Vertical Inputs
-        if (controlManager.buttonUp) currentInputs.Add("Up");
-        if (controlManager.buttonDown) currentInputs.Add("Down");
+        AddInput(controlManager.buttonUp, "Up");
+        AddInput(controlManager.buttonDown, "Down");
 
-        // Punch Inputs
-        if (controlManager.buttonLightPunch) currentInputs.Add("LightPunch");
-        if (controlManager.buttonMediumPunch) currentInputs.Add("MediumPunch");
-        if (controlManager.buttonHeavyPunch) currentInputs.Add("HeavyPunch");
+        AddInput(controlManager.buttonLightPunch, "LightPunch");
+        AddInput(controlManager.buttonMediumPunch, "MediumPunch");
+        AddInput(controlManager.buttonHeavyPunch, "HeavyPunch");
 
-        // Kick Inputs
-        if (controlManager.buttonLightKick) currentInputs.Add("LightKick");
-        if (controlManager.buttonMediumKick) currentInputs.Add("MediumKick");
-        if (controlManager.buttonHeavyKick) currentInputs.Add("HeavyKick");
-
-        // Add new inputs to the buffer only if they weren't in the previous frame's inputs
-        foreach (string input in currentInputs)
-        {
-            if (!previousInputs.Contains(input))
-            {
-                inputTracker.Add(input);
-            }
-        }
+        AddInput(controlManager.buttonLightKick, "LightKick");
+        AddInput(controlManager.buttonMediumKick, "MediumKick");
+        AddInput(controlManager.buttonHeavyKick, "HeavyKick");
 
         // Ensure the buffer size is limited to 10
         if (inputTracker.Count > 10)
         {
             inputTracker.RemoveAt(0);  // Remove the oldest input
+            inputTimes.RemoveAt(0);    // Remove the corresponding time
         }
 
-        // Update previousInputs to be the currentInputs for the next frame
         previousInputs.Clear();
         previousInputs.UnionWith(currentInputs);
+    }
+
+    private void AddInput(bool condition, string input)
+    {
+        if (condition)
+        {
+            currentInputs.Add(input);
+            if (!previousInputs.Contains(input))
+            {
+                inputTracker.Add(input);
+                inputTimes.Add(Time.time);
+                lastSuccessfulInputIndex = -1; // Reset the last successful index when new input is added
+            }
+        }
+    }
+
+    private void Update()
+    {
+        CaptureInputs();
+
+        if (stateManager.stateGrounded && stateManager.passiveAction)
+        {
+            CheckSpecialMove(new List<string> { "Down", "Right", "LightPunch" }, ref Special1);
+        }
+
+        if (Special1)
+        {
+            ExecuteSpecialMove1();
+        }
+    }
+
+    private void CheckSpecialMove(List<string> specialCommand, ref bool specialMoveBool)
+    {
+        if (!specialMoveBool && MatchesSequence(specialCommand))
+        {
+            specialMoveBool = true;
+            lastSuccessfulInputIndex = inputTracker.Count - 1; // Store the index of the last input used for the sequence
+        }
+    }
+
+    private bool MatchesSequence(List<string> sequence)
+    {
+        if (inputTracker.Count < sequence.Count)
+            return false;
+
+        float firstInputTime = inputTimes[inputTracker.Count - sequence.Count];
+        float lastInputTime = inputTimes[inputTracker.Count - 1];
+
+        // Check if inputs are within the allowed time frame
+        if (lastInputTime - firstInputTime > CommandTimer)
+            return false;
+
+        // Check if the last entries in inputTracker match the sequence
+        for (int i = 0; i < sequence.Count; i++)
+        {
+            if (inputTracker[inputTracker.Count - sequence.Count + i] != sequence[i])
+                return false;
+        }
+
+        // Ensure the same sequence doesn't trigger the special move again unless new inputs were added
+        if (inputTracker.Count - sequence.Count <= lastSuccessfulInputIndex)
+            return false;
+
+        return true;
+    }
+
+    private void ExecuteSpecialMove1()
+    {
+        universalActionManager.actualAction = "Special1";
+        stateManager.noCancelableAction = true;
     }
 }

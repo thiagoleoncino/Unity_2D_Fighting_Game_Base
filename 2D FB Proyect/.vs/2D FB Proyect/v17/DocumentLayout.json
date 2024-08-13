@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_09_ryu_special_moves_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_09_ryu_special_moves_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_07_ryu_animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\01 - ryu\\02 - scripts\\scr_07_ryu_animation_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Scr_07_Ryu_Animation_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
+              "RelativeToolTip": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_07_Ryu_Animation_Manager.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAgwEwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:38:02.233Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_09_Ryu_Special_Moves_Manager.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_09_Ryu_Special_Moves_Manager.cs",
               "RelativeToolTip": "Assets\\02 - Characters\\01 - Ryu\\02 - Scripts\\Scr_09_Ryu_Special_Moves_Manager.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T23:23:33.936Z",
               "EditorCaption": ""

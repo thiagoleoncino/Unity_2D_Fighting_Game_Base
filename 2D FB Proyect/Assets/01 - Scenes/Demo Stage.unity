@@ -1974,5 +1974,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_01_Ryu_Object
       objectReference: {fileID: 0}
+    - target: {fileID: 5282419255145045371, guid: 282588b2f7208394792dbb32e38c4e67, type: 3}
+      propertyPath: commandTimer
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282419255145045371, guid: 282588b2f7208394792dbb32e38c4e67, type: 3}
+      propertyPath: sequenceStartTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 282588b2f7208394792dbb32e38c4e67, type: 3}

@@ -5,7 +5,9 @@ using UnityEngine;
 public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
 {
     //Scripts
+    private Scr_02_State_Manager stateManager;
     private Scr_05_Universal_Action_Manager characterAction;
+    private Scr_09_Ryu_Special_Moves_Manager characterSpecialMoves;
 
     //Component
     private Animator animator;
@@ -43,11 +45,14 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"CrouchHeavyKick",  "Anim_28_Ryu_CrouchHeavyKick" },
         {"Crouching",  "Anim_29_Ryu_Crouching" },
         {"FowardHeavyPunch",  "Anim_B01_Ryu_FowardHeavyPunch" },
+        {"Special1",  "Anim_C01_Ryu_SpecialMove1" },
     };
 
     void Awake()
     {
+        stateManager = GetComponentInParent<Scr_02_State_Manager>();
         characterAction = GetComponentInParent<Scr_05_Universal_Action_Manager>();
+        characterSpecialMoves = GetComponentInParent<Scr_09_Ryu_Special_Moves_Manager>();
         animator = GetComponent<Animator>();
     }
 
@@ -65,5 +70,11 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
 
         animator.Play(newAnimation);
         actualAnimation = newAnimation;
+    }
+
+    public void EndSpecialEvent()
+    {
+        stateManager.passiveAction = true;
+        characterSpecialMoves.Special1 = false;
     }
 }
