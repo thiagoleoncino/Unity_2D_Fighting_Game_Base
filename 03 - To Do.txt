@@ -6,7 +6,7 @@ Ver 0.6:
 	- add a Input Inerpreter for Special Moves *
 	- Add Special Moves *
 	- Correct some bugs
-	- Update Program Document
+	- Update Program Document *
 
 Quedo en: 12/8/24
 	- Actualizar el Documento y corregir bugs
@@ -34,5 +34,4 @@ Bugs:
 		- Si el ataque termina con LP, primero pasa la animacion de LP y despues la de Special1
 
 Active Changes Log: 12/8/24
-	- Scr_09_Ryu_Special_Moves_Manager casi completo
-	- Agregar evento final en Scr_08_Ryu_Action_Manager
+	- Agregando logica para arreglar bug Scr 08 y 09

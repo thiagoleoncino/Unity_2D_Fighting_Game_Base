@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ public class Scr_09_Ryu_Special_Moves_Manager : MonoBehaviour
     private Scr_01_Control_Manager controlManager;
     private Scr_02_State_Manager stateManager;
     private Scr_05_Universal_Action_Manager universalActionManager;
+    private Scr_08_Ryu_Action_Manager characterActionManager;
 
     public HashSet<string> currentInputs = new HashSet<string>();   // Track active inputs
     private HashSet<string> previousInputs = new HashSet<string>(); // Track previous frame's inputs
@@ -24,6 +26,17 @@ public class Scr_09_Ryu_Special_Moves_Manager : MonoBehaviour
         controlManager = GetComponent<Scr_01_Control_Manager>();
         stateManager = GetComponent<Scr_02_State_Manager>();
         universalActionManager = GetComponent<Scr_05_Universal_Action_Manager>();
+        characterActionManager = GetComponent<Scr_08_Ryu_Action_Manager>();
+    }
+
+    private void FixedUpdate()
+    {
+        CaptureInputs();
+
+        if (stateManager.stateGrounded && stateManager.passiveAction)
+        {
+            ExecuteSpecialMove(new List<string> { "Down", "Right", "LightPunch" }, ref Special1, SpecialMove1Function);
+        }
     }
 
     private void CaptureInputs() // Keeps track of the inputs
@@ -52,49 +65,25 @@ public class Scr_09_Ryu_Special_Moves_Manager : MonoBehaviour
         // Ensure the buffer size is limited to 10
         if (inputTracker.Count > 10)
         {
-            inputTracker.RemoveAt(0);  // Remove the oldest input
-            inputTimes.RemoveAt(0);    // Remove the corresponding time
+            inputTracker.RemoveAt(0);       // Remove the oldest input
+            inputTimes.RemoveAt(0);         // Remove the corresponding time
         }
 
         previousInputs.Clear();
         previousInputs.UnionWith(currentInputs);
     }
 
-    private void AddInput(bool condition, string input)
+    private void AddInput(bool actionBool, string inputOutput)
     {
-        if (condition)
+        if (actionBool)
         {
-            currentInputs.Add(input);
-            if (!previousInputs.Contains(input))
+            currentInputs.Add(inputOutput);
+            if (!previousInputs.Contains(inputOutput))
             {
-                inputTracker.Add(input);
+                inputTracker.Add(inputOutput);
                 inputTimes.Add(Time.time);
-                lastSuccessfulInputIndex = -1; // Reset the last successful index when new input is added
+                lastSuccessfulInputIndex = -1;                      // Reset the last successful index when new input is added
             }
-        }
-    }
-
-    private void Update()
-    {
-        CaptureInputs();
-
-        if (stateManager.stateGrounded && stateManager.passiveAction)
-        {
-            CheckSpecialMove(new List<string> { "Down", "Right", "LightPunch" }, ref Special1);
-        }
-
-        if (Special1)
-        {
-            ExecuteSpecialMove1();
-        }
-    }
-
-    private void CheckSpecialMove(List<string> specialCommand, ref bool specialMoveBool)
-    {
-        if (!specialMoveBool && MatchesSequence(specialCommand))
-        {
-            specialMoveBool = true;
-            lastSuccessfulInputIndex = inputTracker.Count - 1; // Store the index of the last input used for the sequence
         }
     }
 
@@ -106,25 +95,37 @@ public class Scr_09_Ryu_Special_Moves_Manager : MonoBehaviour
         float firstInputTime = inputTimes[inputTracker.Count - sequence.Count];
         float lastInputTime = inputTimes[inputTracker.Count - 1];
 
-        // Check if inputs are within the allowed time frame
         if (lastInputTime - firstInputTime > CommandTimer)
             return false;
 
-        // Check if the last entries in inputTracker match the sequence
         for (int i = 0; i < sequence.Count; i++)
         {
             if (inputTracker[inputTracker.Count - sequence.Count + i] != sequence[i])
                 return false;
         }
 
-        // Ensure the same sequence doesn't trigger the special move again unless new inputs were added
         if (inputTracker.Count - sequence.Count <= lastSuccessfulInputIndex)
             return false;
 
         return true;
     }
 
-    private void ExecuteSpecialMove1()
+    private void ExecuteSpecialMove(List<string> specialCommand, ref bool specialMoveBool, Action specialMoveAction)
+    {
+        if (!specialMoveBool && MatchesSequence(specialCommand))
+        {
+            specialMoveBool = true;
+            lastSuccessfulInputIndex = inputTracker.Count - 1;
+            characterActionManager.specialMoveActive = true;
+        }
+
+        if (specialMoveBool)
+        {
+            specialMoveAction();
+        }
+    }
+
+    void SpecialMove1Function()
     {
         universalActionManager.actualAction = "Special1";
         stateManager.noCancelableAction = true;

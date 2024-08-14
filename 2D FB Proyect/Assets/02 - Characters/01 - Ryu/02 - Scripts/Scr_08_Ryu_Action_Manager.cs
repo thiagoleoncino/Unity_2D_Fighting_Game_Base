@@ -11,6 +11,8 @@ public class Scr_08_Ryu_Action_Manager : MonoBehaviour
     private Scr_04_Universal_Physics_Manager universalPysicsManager;
     private Scr_05_Universal_Action_Manager universalActionManager;
 
+    public bool specialMoveActive;
+
     void Awake()
     {
         controlManager = GetComponent<Scr_01_Control_Manager>();
@@ -87,7 +89,7 @@ public class Scr_08_Ryu_Action_Manager : MonoBehaviour
 
     public void Attack(bool button, string Action, float MoveX, float MoveY, bool isStanding)
     {
-        if (button)
+        if (button && !specialMoveActive)
         {
             universalActionManager.actualAction = Action;
             stateManager.semiCancelableAction = true;
