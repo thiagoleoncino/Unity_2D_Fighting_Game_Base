@@ -150,7 +150,6 @@ GameObject:
   - component: {fileID: 3034679072348074830}
   - component: {fileID: 3034679072348074831}
   - component: {fileID: 6907333221111926079}
-  - component: {fileID: 5282419255145045371}
   m_Layer: 0
   m_Name: Character_01_Ryu_Object
   m_TagString: Untagged
@@ -323,16 +322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72108abe1d43dc54cabc0baf01e11072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5282419255145045371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3034679072348074871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b7c75b2b72bcee418e10fea1ab10e26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputBuffer: []
+  inputTracker: []
+  specialMoveActive: 0
+  Special1: 0

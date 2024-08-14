@@ -7,7 +7,7 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
     //Scripts
     private Scr_02_State_Manager stateManager;
     private Scr_05_Universal_Action_Manager characterAction;
-    private Scr_09_Ryu_Special_Moves_Manager characterSpecialMoves;
+    private Scr_08_Ryu_Action_Manager characterUniqueActions;
 
     //Component
     private Animator animator;
@@ -52,7 +52,7 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
     {
         stateManager = GetComponentInParent<Scr_02_State_Manager>();
         characterAction = GetComponentInParent<Scr_05_Universal_Action_Manager>();
-        characterSpecialMoves = GetComponentInParent<Scr_09_Ryu_Special_Moves_Manager>();
+        characterUniqueActions = GetComponentInParent<Scr_08_Ryu_Action_Manager>();
         animator = GetComponent<Animator>();
     }
 
@@ -75,6 +75,7 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
     public void EndSpecialEvent()
     {
         stateManager.passiveAction = true;
-        characterSpecialMoves.Special1 = false;
+        characterUniqueActions.specialMoveActive = false;
+        characterUniqueActions.Special1 = false;
     }
 }

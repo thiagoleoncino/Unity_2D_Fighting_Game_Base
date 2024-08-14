@@ -38,9 +38,6 @@ New:
 	+ Folder - "012 - Command Normals"
 	+ Folder - "013 - Special Moves"
 
-- Sub-Folder - "02 - Character -> 01 - Ryu -> 02 - Scripts"
-	+ Script - "Scr_09_Ryu_Special_Moves_Manager"
-
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 03 - Animations"
 	+ Animation Clip - "Anim_B01_Ryu_FowardHeavyPunch"
 	+ Animation Clip - "Anim_C01_Ryu_SpecialMove1"

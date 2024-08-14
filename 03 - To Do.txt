@@ -1,15 +1,8 @@
-Ver 0.6:
-	- Add Diagonal Inputs *
-	- Add Normal Input Attacks *
-	- Rework Inputs, use Unity New Input System *
-	- Add a Input Reader for Special Moves *
-	- add a Input Inerpreter for Special Moves *
-	- Add Special Moves *
-	- Correct some bugs
-	- Update Program Document *
+Ver 0.7:
+	
 
-Quedo en: 12/8/24
-	- Actualizar el Documento y corregir bugs
+Quedo en:
+
 
 Pasos:	
 	- Actualizar Desing Document
@@ -30,8 +23,6 @@ Bugs:
 		- Al mantener el boton presionado el ataque se repite infinitamente
 		- Al realizar un ataque aereo y aterrizar la animacion no se interrumpe
 		- Los Ataques se cancelan entre ellos al presionar uno diferente
-	- Spcials
-		- Si el ataque termina con LP, primero pasa la animacion de LP y despues la de Special1
 
-Active Changes Log: 12/8/24
-	- Agregando logica para arreglar bug Scr 08 y 09
+Active Changes Log: 14/8/24
+
