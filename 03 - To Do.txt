@@ -1,12 +1,16 @@
 Ver 0.7:
-	
+	- Special 1 - Proyectil (Anim *, Funcion)
+	- Special 2 - Tatsu (Anim *, Funcion)
+	- Mecanica de Bloquear *
+	- Hitbox y Hurtbox (Interaccion Simple)
 
 Quedo en:
 
 
 Pasos:	
-	- Actualizar Desing Document
-	- Seleccionar y agregar Sprites
+	- Actualizar Desing Document *
+	- Seleccionar y agregar Sprites *
+	- Actualizar lista de Lables *
 	- Agregar Animacion
 	- Agregar codigo y necesarios a Untiy 
 	- Mientras ir actualizando Actual Version Change 
@@ -25,4 +29,8 @@ Bugs:
 		- Los Ataques se cancelan entre ellos al presionar uno diferente
 
 Active Changes Log: 14/8/24
+		- Agregando Sprites, Animaciones y Key Bindings
+		- Modificando Control Manager
+		- Agregando funcion a Universal Action Manager
+		- Agregando animacion a character Anim Manager
 

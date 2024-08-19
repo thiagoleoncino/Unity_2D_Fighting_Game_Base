@@ -52,6 +52,8 @@ public class Scr_01_Control_Manager : MonoBehaviour
     public bool buttonLightKick;
     public bool buttonMediumKick;
     public bool buttonHeavyKick;
+    [Space]
+    public bool buttonBlock;
 
     private void Awake()
     {
@@ -111,6 +113,9 @@ public class Scr_01_Control_Manager : MonoBehaviour
         InputActionBool(controls.Player1.LK, value => buttonLightKick = value);
         InputActionBool(controls.Player1.MK, value => buttonMediumKick = value);
         InputActionBool(controls.Player1.HK, value => buttonHeavyKick = value);
+
+        // Block
+        InputActionBool(controls.Player1.Block, value => buttonBlock = value);
 
     } // Player 1 Inputs
 

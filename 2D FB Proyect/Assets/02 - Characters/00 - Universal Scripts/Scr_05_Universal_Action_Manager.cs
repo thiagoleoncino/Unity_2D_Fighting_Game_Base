@@ -18,6 +18,7 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
     public bool rightSide;
 
     public bool crouching;
+    public bool blocking;
 
     void Awake()
     {
@@ -108,6 +109,13 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                     }
                 }
 
+                //Standing Block code
+                if (controlManager.buttonBlock)
+                {
+                    universalPysicsManager.MoveCharacterFunction(0f, 0f);
+                    stateManager.cancelableAction = true;
+                    blocking = true;
+                }
             }
 
             if (stateManager.cancelableAction)
@@ -121,6 +129,36 @@ public class Scr_05_Universal_Action_Manager : MonoBehaviour
                     {
                         actualAction = "Standing";
                         crouching = false;
+                    }
+
+                    if (controlManager.buttonBlock)
+                    {
+                        blocking = true;
+                    }
+                }
+
+                //Actions from Block
+                if (blocking)
+                {
+                    actualAction = "StandingBlock";
+
+                    if (!controlManager.buttonBlock)
+                    {
+                        actualAction = "Idle";
+                        blocking = false;
+                        stateManager.passiveAction = true;
+                    }
+
+                    if (controlManager.buttonDown)
+                    {
+                        actualAction = "CrouchingBlock";
+                        crouching = true;
+
+                        if (!controlManager.buttonBlock)
+                        {
+                            actualAction = "Crouching";
+                            blocking = false;
+                        }
                     }
                 }
             }

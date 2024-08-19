@@ -46,6 +46,10 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         {"Crouching",  "Anim_29_Ryu_Crouching" },
         {"FowardHeavyPunch",  "Anim_B01_Ryu_FowardHeavyPunch" },
         {"Special1",  "Anim_C01_Ryu_SpecialMove1" },
+        {"Special2",  "Anim_C02_Ryu_SpecialMove2" },
+        {"StandingBlock",  "Anim_30_Ryu_StandingBlock" },
+        {"CrouchingBlock",  "Anim_31_Ryu_CroucingBlock" },
+
     };
 
     void Awake()
@@ -77,5 +81,6 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         stateManager.passiveAction = true;
         characterUniqueActions.specialMoveActive = false;
         characterUniqueActions.Special1 = false;
+        characterUniqueActions.Special2 = false;
     }
 }

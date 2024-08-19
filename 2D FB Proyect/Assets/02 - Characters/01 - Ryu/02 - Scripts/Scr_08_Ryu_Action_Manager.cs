@@ -25,6 +25,7 @@ public class Scr_08_Ryu_Action_Manager : MonoBehaviour
     //Special Moves Bools
     public bool specialMoveActive;
     public bool Special1;
+    public bool Special2;
 
     void Awake()
     {
@@ -43,6 +44,8 @@ public class Scr_08_Ryu_Action_Manager : MonoBehaviour
         if (stateManager.stateGrounded && (stateManager.passiveAction || stateManager.cancelableAction))
         {
             SpecialAttack(new List<string> { "Down", "Right", "LightPunch" }, ref Special1, SpecialMove1Function);
+
+            SpecialAttack(new List<string> { "Down", "Left", "LightKick" }, ref Special2, SpecialMove2Function);
         }
 
         if (specialMoveActive)
@@ -208,6 +211,12 @@ public class Scr_08_Ryu_Action_Manager : MonoBehaviour
     void SpecialMove1Function()
     {
         universalActionManager.actualAction = "Special1";
+        stateManager.noCancelableAction = true;
+    }
+
+    void SpecialMove2Function()
+    {
+        universalActionManager.actualAction = "Special2";
         stateManager.noCancelableAction = true;
     }
 }

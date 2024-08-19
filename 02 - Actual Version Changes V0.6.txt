@@ -1,40 +1,6 @@
 Old:
 
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 01 - Sprites"
-	+ Folder - "006 - Normal Punch Attacks"
-	+ Folder - "007 - Normal Kick Attacks"
-	+ Folder - "008 - Jump Punch Attacks"
-	+ Folder - "009 - Jump Kick Attacks"
-	+ Folder - "010 - Crouch Punch Attacks"
-	+ Folder - "011 - Crouch Kick Attacks"
-
-- Sub-Folder - "02 - Character -> 01 - Ryu -> 03 - Animations"
-	+ Animation Clip - "Anim_11_Ryu_NeutralLightPunch"
-	+ Animation Clip - "Anim_12_Ryu_NeutralMediumPunch"
-	+ Animation Clip - "Anim_13_Ryu_NeutralHeavyPunch"
-	+ Animation Clip - "Anim_14_Ryu_NeutralLightKick"
-	+ Animation Clip - "Anim_15_Ryu_NeutralMediumKick"
-	+ Animation Clip - "Anim_16_Ryu_NeutralHeavyKick"
-	+ Animation Clip - "Anim_17_Ryu_JumpLightPunch"
-	+ Animation Clip - "Anim_18_Ryu_JumpMediumPunchk"
-	+ Animation Clip - "Anim_19_Ryu_JumpHeavyPunch"
-	+ Animation Clip - "Anim_20_Ryu_JumpLightKick"
-	+ Animation Clip - "Anim_21_Ryu_JumpMediumKick"
-	+ Animation Clip - "Anim_22_Ryu_JumpHeavyKick"
-	+ Animation Clip - "Anim_23_Ryu_CrouchLightPunch"
-	+ Animation Clip - "Anim_24_Ryu_CrouchMediumPunch"
-	+ Animation Clip - "Anim_25_Ryu_CrouchHeavyPunch"
-	+ Animation Clip - "Anim_26_Ryu_CrouchLightKick"
-	+ Animation Clip - "Anim_27_Ryu_CrouchMediumKick"
-	+ Animation Clip - "Anim_28_Ryu_CrouchHeavyKick"
-	+ Animation Clip - "Anim_29_Ryu_Crouching"
-
-- Sub-Folder - "02 - Character -> 01 - Ryu -> 02 - Scripts"
-	+ Script - "Scr_08_ Ryu_Action_Manager"
----------------------------------------------------------------
-New:
-
-- Sub-Folder - "02 - Character -> 01 - Ryu -> 01 - Sprites"
 	+ Folder - "012 - Command Normals"
 	+ Folder - "013 - Special Moves"
 
@@ -83,6 +49,27 @@ Input Asset - "Player_Input_Action"
 			+ Binding - "K"
 		+ Actions - "HK"
 			+ Binding - "J"
+
+---------------------------------------------------------------
+New:
+
+- Sub-Folder - "02 - Character -> 01 - Ryu -> 01 - Sprites"
+	+ Folder - "014 - Blocking"
+
+- Sub-Folder - "02 - Character -> 01 - Ryu -> 03 - Animations"
+	+ Animation Clip - "Anim_30_Ryu_StandingBlock"
+	+ Animation Clip - "Anim_31_Ryu_CroucingBlock"
+	+ Animation Clip - "Anim_C02_Ryu_SpecialMove2"
+
+Input Asset - "Player_Input_Action"
+	+ Action Maps - "Player1"
+		+ Actions - "Block"
+			+ Binding - "Y"
+
+- Sub-Folder - "02 - Character -> 01 - Ryu -> 04 - Effects"
+	+ Folder - "01 - Sprites"
+	+ Folder - "02 - Prefabs"
+
 
 ---------------------------------------------------------------
 Change:
