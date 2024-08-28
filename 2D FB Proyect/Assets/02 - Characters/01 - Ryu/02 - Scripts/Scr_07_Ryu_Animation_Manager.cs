@@ -83,4 +83,5 @@ public class Scr_07_Ryu_Animation_Manager : MonoBehaviour
         characterUniqueActions.Special1 = false;
         characterUniqueActions.Special2 = false;
     }
+
 }

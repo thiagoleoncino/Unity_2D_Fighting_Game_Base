@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &326107997687130895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6900980328654959922}
+  - component: {fileID: 1159493473346688063}
+  m_Layer: 0
+  m_Name: Hurtbox
+  m_TagString: Tag_Player1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6900980328654959922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326107997687130895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3034679071619379653}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1159493473346688063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326107997687130895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3034679071619379654
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,9 +58,10 @@ GameObject:
   - component: {fileID: 3034679071619379650}
   - component: {fileID: 3034679071619379651}
   - component: {fileID: 3034679071619379649}
+  - component: {fileID: 973601423}
   m_Layer: 0
   m_Name: Animator
-  m_TagString: Untagged
+  m_TagString: Tag_Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,7 +77,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7693260810533213667}
+  - {fileID: 6900980328654959922}
   m_Father: {fileID: 3034679072348074870}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -132,6 +180,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f3d4b66148d3b94c98f77648b6830ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &973601423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3034679071619379654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d273ae7721a55b49bbc66690cff91f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialMoves:
+  - objectSpawn: {fileID: 7693260810533213667}
+    objectPrefab: {fileID: 4312207643138435, guid: 0a0414e339ea2ad42970f6b80504b649, type: 3}
+    eventName: Special1
 --- !u!1 &3034679072348074871
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,7 +216,7 @@ GameObject:
   - component: {fileID: 6907333221111926079}
   m_Layer: 0
   m_Name: Character_01_Ryu_Object
-  m_TagString: Untagged
+  m_TagString: Tag_Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,6 +310,7 @@ MonoBehaviour:
   buttonLightKick: 0
   buttonMediumKick: 0
   buttonHeavyKick: 0
+  buttonBlock: 0
 --- !u!114 &3034679072348074865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,6 +375,7 @@ MonoBehaviour:
   playerObjetive: {fileID: 0}
   rightSide: 0
   crouching: 0
+  blocking: 0
 --- !u!114 &6907333221111926079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,3 +391,35 @@ MonoBehaviour:
   inputTracker: []
   specialMoveActive: 0
   Special1: 0
+  Special2: 0
+--- !u!1 &5113599530709993172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7693260810533213667}
+  m_Layer: 0
+  m_Name: Special1_Exit
+  m_TagString: Tag_Player1
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7693260810533213667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5113599530709993172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.75, y: 0.06, z: -0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3034679071619379653}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

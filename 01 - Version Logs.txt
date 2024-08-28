@@ -10,5 +10,5 @@ Ver 0.5 2-8-24 - Character Specific Action Manager. Normal Attacks. Jump Attacks
 
 Ver 0.6 14-8-24 - Change Input Detection. Command Normals. Special Command Manager. Command Special.
 
-Ver 0.7 ?-?-? - Add Special Move Funcionality. Block mechanics. Simple Hitbox and Hurtbox.
+Ver 0.7 ?-?-? - Mirror Inputs. Add Special Move Funcionality. Block mechanics. Simple Hitbox and Hurtbox.
 

@@ -67,11 +67,26 @@ Input Asset - "Player_Input_Action"
 			+ Binding - "Y"
 
 - Sub-Folder - "02 - Character -> 01 - Ryu -> 04 - Effects"
-	+ Folder - "01 - Sprites"
-	+ Folder - "02 - Prefabs"
+	+ Folder - "01 - Special1"
+		+ Folder - "01 - Sprite"
+		+ Folder - "02 - Animations"
+			+ Animation Clip - "Anim_A01_Ryu_Special1_Effect"
+			+ Animation Clip - "Anim_A02_Ryu_Special1_End"
+		+ Prefab - Prefab_Ryu_Special1
 
+- Sub-Folder - "02 - Character -> 00 - Universal Scripts"
+	+ Folder - "00 - Special Moves Basic"
+		+ Script - "Scr_A01_InitiateObject"
+		+ Script - "Scr_A02_DestroyObject"
+		+ Script - "Scr_A03_MoveFoward"
+
+- Tag 
+	+ Tag - "Tag_Player1"
+	+ Tag - "Tag_Player2"
 
 ---------------------------------------------------------------
 Change:
 
+Character_01_Ryu_Object -> Tag -> "Tag_Player1"	
+Character_02_Ryu_Object -> Tag -> "Tag_Player2"	
 

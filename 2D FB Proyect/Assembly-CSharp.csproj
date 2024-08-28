@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\02 - Characters\01 - Ryu\02 - Scripts\Scr_07_Ryu_Animation_Manager.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_02_State_Manager.cs" />
+    <Compile Include="Assets\02 - Characters\00 - Universal Scripts\00 - Special Moves Basic\Scr_A03_MoveFoward.cs" />
+    <Compile Include="Assets\02 - Characters\00 - Universal Scripts\00 - Special Moves Basic\Scr_A02_DestroyObject.cs" />
     <Compile Include="Assets\02 - Characters\00 - Controls\Player_Input_Action.cs" />
     <Compile Include="Assets\02 - Characters\01 - Ryu\02 - Scripts\Scr_08_Ryu_Action_Manager.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_05_Universal_Action_Manager.cs" />
@@ -65,6 +67,7 @@
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_04_Universal_Physics_Manager.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_03_Character_Stats.cs" />
     <Compile Include="Assets\02 - Characters\00 - Universal Scripts\Scr_01_Control_Manager.cs" />
+    <Compile Include="Assets\02 - Characters\00 - Universal Scripts\00 - Special Moves Basic\Scr_A01_InitiateObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,10 +1,12 @@
 Ver 0.7:
-	- Special 1 - Proyectil (Anim *, Funcion)
+	- Special 1 - Proyectil (Anim *, Funcion*)
 	- Special 2 - Tatsu (Anim *, Funcion)
 	- Mecanica de Bloquear *
-	- Hitbox y Hurtbox (Interaccion Simple)
+	- Hitbox (Simple*)
 
 Quedo en:
+	- Destruir objeto al tocar jugador
+	- Actualizar Special Move program
 
 
 Pasos:	
@@ -28,9 +30,5 @@ Bugs:
 		- Al realizar un ataque aereo y aterrizar la animacion no se interrumpe
 		- Los Ataques se cancelan entre ellos al presionar uno diferente
 
-Active Changes Log: 14/8/24
-		- Agregando Sprites, Animaciones y Key Bindings
-		- Modificando Control Manager
-		- Agregando funcion a Universal Action Manager
-		- Agregando animacion a character Anim Manager
-
+Active Changes Log: 24/8/24
+		- Actualizando Program Document
