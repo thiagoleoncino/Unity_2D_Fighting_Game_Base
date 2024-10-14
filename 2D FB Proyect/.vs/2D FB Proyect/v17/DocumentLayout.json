@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\00 - special moves basic\\scr_a01_initiateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\00 - special moves basic\\scr_a01_initiateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_02_state_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_02_state_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\unity_2d_fighting_game_base\\2d fb proyect\\assets\\02 - characters\\00 - universal scripts\\scr_01_control_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\scr_01_control_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\scr_01_control_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\00 - special moves basic\\scr_a02_destroyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\00 - special moves basic\\scr_a02_destroyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\assets\\02 - characters\\00 - universal scripts\\00 - special moves basic\\scr_a01_initiateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{655C27E6-B2F9-B9AD-F822-98B9CD2BB5B3}|Assembly-CSharp.csproj|solutionrelative:assets\\02 - characters\\00 - universal scripts\\00 - special moves basic\\scr_a01_initiateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Scr_02_State_Manager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_02_State_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_02_State_Manager.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Scr_01_Control_Manager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\Scr_01_Control_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_01_Control_Manager.cs",
@@ -51,12 +51,11 @@
               "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\Scr_01_Control_Manager.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAYwGMAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T22:33:55.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T22:33:55.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Scr_A02_DestroyObject.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\00 - Special Moves Basic\\Scr_A02_DestroyObject.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\00 - Special Moves Basic\\Scr_A02_DestroyObject.cs",
@@ -68,15 +67,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Scr_A01_InitiateObject.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\00 - Special Moves Basic\\Scr_A01_InitiateObject.cs",
               "RelativeDocumentMoniker": "Assets\\02 - Characters\\00 - Universal Scripts\\00 - Special Moves Basic\\Scr_A01_InitiateObject.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Unity_2D_Fighting_Game_Base\\2D FB Proyect\\Assets\\02 - Characters\\00 - Universal Scripts\\00 - Special Moves Basic\\Scr_A01_InitiateObject.cs",
               "RelativeToolTip": "Assets\\02 - Characters\\00 - Universal Scripts\\00 - Special Moves Basic\\Scr_A01_InitiateObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAJAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T20:21:12.635Z"
+              "WhenOpened": "2024-08-24T20:21:12.635Z",
+              "EditorCaption": ""
             }
           ]
         }
